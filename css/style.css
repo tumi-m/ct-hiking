@@ -247,6 +247,26 @@ h3 { font-size: 1.2rem; }
 .section-header h2 { color: var(--brown-dark); }
 .section-header p  { color: var(--text-muted); margin-top: 0.4rem; }
 
+/* ── Search bar ────────────────────────────────────────────────────────────── */
+.search-bar {
+  margin-bottom: 1rem;
+}
+.search-bar input {
+  width: 100%;
+  padding: 0.7rem 1.1rem;
+  border: 1.5px solid #ddd;
+  border-radius: var(--radius);
+  font: inherit;
+  font-size: 0.95rem;
+  background: #fff;
+  box-shadow: var(--shadow);
+  transition: border-color 0.15s;
+}
+.search-bar input:focus {
+  outline: none;
+  border-color: var(--green);
+}
+
 /* ── Filter bar ────────────────────────────────────────────────────────────── */
 .filter-bar {
   display: flex;

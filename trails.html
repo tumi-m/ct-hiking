@@ -36,6 +36,11 @@
 <div class="page-content">
   <div class="container">
 
+    <!-- Search -->
+    <div class="search-bar">
+      <input type="search" id="trail-search" placeholder="Search trails by name or reserve…" autocomplete="off">
+    </div>
+
     <!-- Filters -->
     <div class="filter-bar">
       <label>Difficulty</label>
@@ -67,12 +72,15 @@
   let allTrails = [];
   let activeDifficulty = 'all';
   let activeSource = 'all';
+  let searchQuery = '';
 
   function applyFilters() {
+    const q = searchQuery.toLowerCase();
     const visible = allTrails.filter(t => {
-      const diffOk = activeDifficulty === 'all' || t.difficulty === activeDifficulty;
-      const srcOk  = activeSource     === 'all' || t.source     === activeSource;
-      return diffOk && srcOk;
+      const diffOk   = activeDifficulty === 'all' || t.difficulty === activeDifficulty;
+      const srcOk    = activeSource     === 'all' || t.source     === activeSource;
+      const searchOk = !q || t.name.toLowerCase().includes(q) || t.reserve.toLowerCase().includes(q);
+      return diffOk && srcOk && searchOk;
     });
     document.getElementById('trails-grid').innerHTML =
       visible.length ? visible.map(trailCard).join('') :
@@ -90,6 +98,11 @@
       if (filter === 'source')     activeSource     = value;
       applyFilters();
     });
+  });
+
+  document.getElementById('trail-search').addEventListener('input', e => {
+    searchQuery = e.target.value.trim();
+    applyFilters();
   });
 
   loadTrails().then(trails => {
