@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map Explorer — CT Hiking</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <style>
+    body { overflow: hidden; }
+    .map-page { display: flex; height: calc(100vh - var(--nav-height)); }
+    #map-full { flex: 1; }
+    .map-sidebar { position: relative; top: auto; right: auto; height: 100%; display: flex; }
+    .sidebar-filters {
+      padding: 0.75rem 1.25rem;
+      border-bottom: 1px solid #f0ece5;
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+    }
+    .sidebar-filters .filter-btn { font-size: 0.78rem; padding: 0.25rem 0.65rem; }
+  </style>
+</head>
+<body>
+
+<div class="topo-bg" style="z-index:-2">
+  <svg id="topo-svg" xmlns="http://www.w3.org/2000/svg"></svg>
+</div>
+
+<nav class="nav">
+  <a class="nav-logo" href="index.html">&#9968; CT <span>Hiking</span></a>
+  <button class="nav-toggle" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="trails.html">Trails</a></li>
+    <li><a href="map.html">Map</a></li>
+    <li><a href="tips.html">Tips &amp; Safety</a></li>
+    <li><a href="friends.html">Friends</a></li>
+  </ul>
+</nav>
+
+<div class="map-page">
+  <div id="map-full"></div>
+
+  <aside class="map-sidebar">
+    <div class="map-sidebar-header">
+      <h3>All Trails</h3>
+    </div>
+    <div class="sidebar-filters">
+      <button class="filter-btn active" data-value="all">All</button>
+      <button class="filter-btn" data-value="Easy">Easy</button>
+      <button class="filter-btn" data-value="Moderate">Moderate</button>
+      <button class="filter-btn" data-value="Hard">Hard</button>
+    </div>
+    <div class="map-sidebar-list" id="sidebar-list"></div>
+  </aside>
+</div>
+
+<script src="js/main.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  const COLOURS = { Easy: '#3a7d44', Moderate: '#8b6914', Hard: '#8b0000' };
+
+  function makeIcon(colour) {
+    return L.divIcon({
+      html: `<div style="background:${colour};width:14px;height:14px;border-radius:50%;border:2.5px solid #fff;box-shadow:0 0 6px rgba(0,0,0,0.35)"></div>`,
+      iconSize: [14, 14], iconAnchor: [7, 7], className: ''
+    });
+  }
+
+  const map = L.map('map-full').setView([-33.95, 18.42], 10);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    maxZoom: 18
+  }).addTo(map);
+
+  let layers = [];
+  let allTrails = [];
+  let activeFilter = 'all';
+
+  function renderSidebar(trails) {
+    document.getElementById('sidebar-list').innerHTML = trails.map(t => `
+      <div class="map-trail-item" data-slug="${t.slug}">
+        <div class="map-trail-name" style="color:${COLOURS[t.difficulty]}">${t.name}</div>
+        <div class="map-trail-meta">${t.reserve} · ${t.distance_km} km · ${t.difficulty}</div>
+      </div>`).join('');
+    document.querySelectorAll('.map-trail-item').forEach(el => {
+      el.addEventListener('click', () => {
+        window.open(`trail.html?slug=${el.dataset.slug}`, '_self');
+      });
+    });
+  }
+
+  function renderMap(trails) {
+    layers.forEach(l => map.removeLayer(l));
+    layers = [];
+    trails.forEach(t => {
+      const colour = COLOURS[t.difficulty];
+      const poly = L.polyline(t.polyline, { color: colour, weight: 3.5, opacity: 0.85 }).addTo(map);
+      const marker = L.marker([t.coordinates.lat, t.coordinates.lng], { icon: makeIcon(colour) })
+        .addTo(map)
+        .bindPopup(`
+          <strong>${t.name}</strong><br>
+          ${t.reserve}<br>
+          <span style="color:${colour};font-weight:700">${t.difficulty}</span> · ${t.distance_km} km · ${t.estimated_time}<br>
+          <a href="trail.html?slug=${t.slug}" style="color:#3a7d44;font-weight:600">View trail →</a>`);
+      layers.push(poly, marker);
+    });
+  }
+
+  function applyFilter() {
+    const filtered = activeFilter === 'all'
+      ? allTrails
+      : allTrails.filter(t => t.difficulty === activeFilter);
+    renderMap(filtered);
+    renderSidebar(filtered);
+  }
+
+  document.querySelectorAll('.sidebar-filters .filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.sidebar-filters .filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeFilter = btn.dataset.value;
+      applyFilter();
+    });
+  });
+
+  loadTrails().then(trails => {
+    allTrails = trails;
+    applyFilter();
+  });
+</script>
+</body>
+</html>

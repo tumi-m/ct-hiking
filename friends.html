@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friends — CT Hiking</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topo-bg">
+  <svg id="topo-svg" xmlns="http://www.w3.org/2000/svg"></svg>
+</div>
+
+<nav class="nav">
+  <a class="nav-logo" href="index.html">&#9968; CT <span>Hiking</span></a>
+  <button class="nav-toggle" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="trails.html">Trails</a></li>
+    <li><a href="map.html">Map</a></li>
+    <li><a href="tips.html">Tips &amp; Safety</a></li>
+    <li><a href="friends.html">Friends</a></li>
+  </ul>
+</nav>
+
+<div class="page-header">
+  <div class="container">
+    <h1>Friends</h1>
+    <p>Track planned and completed hikes with your crew</p>
+  </div>
+</div>
+
+<div class="page-content">
+  <div class="container">
+
+    <!-- Stats strip -->
+    <div style="display:flex;gap:1.5rem;margin-bottom:2rem;flex-wrap:wrap">
+      <div style="background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:1rem 1.75rem;text-align:center;flex:1;min-width:120px">
+        <div style="font-size:2rem;font-weight:700;font-family:Georgia,serif;color:var(--green)" id="count-planned">0</div>
+        <div style="font-size:0.78rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.04em">Planned</div>
+      </div>
+      <div style="background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:1rem 1.75rem;text-align:center;flex:1;min-width:120px">
+        <div style="font-size:2rem;font-weight:700;font-family:Georgia,serif;color:var(--brown)" id="count-completed">0</div>
+        <div style="font-size:0.78rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.04em">Completed</div>
+      </div>
+      <div style="background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:1rem 1.75rem;text-align:center;flex:1;min-width:120px">
+        <div style="font-size:2rem;font-weight:700;font-family:Georgia,serif;color:var(--blue)" id="count-friends">0</div>
+        <div style="font-size:0.78rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.04em">Friends</div>
+      </div>
+    </div>
+
+    <div class="friends-layout">
+
+      <!-- Left: forms -->
+      <div style="display:flex;flex-direction:column;gap:1.5rem">
+
+        <!-- Add hike -->
+        <div class="friends-panel">
+          <div class="panel-header">Plan a hike</div>
+          <div class="panel-body">
+            <div class="form-group">
+              <label for="hike-trail">Trail</label>
+              <select id="hike-trail">
+                <option value="">Loading trails…</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="hike-date">Date</label>
+              <input type="date" id="hike-date">
+            </div>
+            <div class="form-group">
+              <label for="hike-friend">Who's coming? (optional)</label>
+              <select id="hike-friend">
+                <option value="">— Select friend —</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="hike-notes">Notes (optional)</label>
+              <input type="text" id="hike-notes" placeholder="e.g. morning start, bring extra water">
+            </div>
+            <button class="btn btn-primary" style="width:100%;justify-content:center" id="btn-add-hike">
+              + Add to plan
+            </button>
+          </div>
+        </div>
+
+        <!-- Add friend -->
+        <div class="friends-panel">
+          <div class="panel-header">Add a friend</div>
+          <div class="panel-body">
+            <div class="form-group">
+              <label for="friend-name">Name</label>
+              <input type="text" id="friend-name" placeholder="e.g. Sipho">
+            </div>
+            <button class="btn btn-primary" style="width:100%;justify-content:center" id="btn-add-friend">
+              + Add friend
+            </button>
+            <div style="margin-top:1rem" id="friends-list-container">
+              <div style="font-size:0.82rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.04em;margin-bottom:0.5rem">Your crew</div>
+              <div class="friends-list" id="friends-list"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Right: hike log -->
+      <div>
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem">
+          <h2 style="font-family:Georgia,serif;font-size:1.3rem;color:var(--brown-dark)">Hike log</h2>
+          <div style="display:flex;gap:0.5rem">
+            <button class="filter-btn active" data-log-filter="all">All</button>
+            <button class="filter-btn" data-log-filter="planned">Planned</button>
+            <button class="filter-btn" data-log-filter="completed">Completed</button>
+          </div>
+        </div>
+        <div class="hike-log" id="hike-log"></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>Data sourced from <strong>SANParks</strong> and <strong>CapeNature</strong>. Built by <a href="https://github.com/tumi-m/ct-hiking" target="_blank">Tumi</a>.</p>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+  const LS_HIKES   = 'ct_hiking_hikes';
+  const LS_FRIENDS = 'ct_hiking_friends';
+  let allTrails = [];
+  let logFilter = 'all';
+
+  function saveHikes(hikes)   { localStorage.setItem(LS_HIKES,   JSON.stringify(hikes)); }
+  function saveFriends(list)  { localStorage.setItem(LS_FRIENDS, JSON.stringify(list)); }
+  function getHikes()         { return JSON.parse(localStorage.getItem(LS_HIKES)   || '[]'); }
+  function getFriends()       { return JSON.parse(localStorage.getItem(LS_FRIENDS) || '[]'); }
+
+  function updateStats() {
+    const hikes = getHikes();
+    document.getElementById('count-planned').textContent   = hikes.filter(h => h.status === 'planned').length;
+    document.getElementById('count-completed').textContent = hikes.filter(h => h.status === 'completed').length;
+    document.getElementById('count-friends').textContent   = getFriends().length;
+  }
+
+  function renderFriends() {
+    const friends = getFriends();
+    const list = document.getElementById('friends-list');
+    const sel  = document.getElementById('hike-friend');
+
+    list.innerHTML = friends.length
+      ? friends.map((f, i) => `
+          <div class="friend-entry">
+            <span class="friend-name">${f}</span>
+            <span class="friend-remove" data-idx="${i}">✕</span>
+          </div>`).join('')
+      : '<p style="font-size:0.85rem;color:var(--text-muted)">No friends added yet.</p>';
+
+    sel.innerHTML = '<option value="">— Select friend —</option>' +
+      friends.map(f => `<option value="${f}">${f}</option>`).join('');
+
+    list.querySelectorAll('.friend-remove').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const f = getFriends();
+        f.splice(Number(btn.dataset.idx), 1);
+        saveFriends(f);
+        renderFriends();
+        updateStats();
+      });
+    });
+  }
+
+  function renderLog() {
+    const hikes = getHikes();
+    const filtered = logFilter === 'all' ? hikes : hikes.filter(h => h.status === logFilter);
+    const container = document.getElementById('hike-log');
+
+    if (!filtered.length) {
+      container.innerHTML = `<div class="empty-state">
+        <div class="empty-state-icon">${logFilter === 'completed' ? '🏔' : '🗓'}</div>
+        <p>${logFilter === 'completed' ? 'No completed hikes yet.' : logFilter === 'planned' ? 'No hikes planned yet.' : 'No hikes logged yet. Plan your first adventure!'}</p>
+      </div>`;
+      return;
+    }
+
+    container.innerHTML = filtered.map((h, idx) => {
+      const realIdx = hikes.indexOf(h);
+      const trail = allTrails.find(t => t.slug === h.trailSlug);
+      const icon  = h.status === 'completed' ? '✓' : '◷';
+      return `<div class="hike-entry">
+        <div class="hike-status status-${h.status}">${icon}</div>
+        <div class="hike-info">
+          <div class="hike-trail-name"><a href="trail.html?slug=${h.trailSlug}" style="color:var(--text)">${h.trailName}</a></div>
+          <div class="hike-meta">
+            ${h.date ? `📅 ${h.date}` : 'No date set'}
+            ${h.friend ? ` · 👥 ${h.friend}` : ''}
+            ${h.notes  ? ` · ${h.notes}` : ''}
+          </div>
+        </div>
+        <div class="hike-actions">
+          ${h.status === 'planned' ? `<button class="hike-action-btn btn-complete" data-idx="${realIdx}">Done ✓</button>` : ''}
+          <button class="hike-action-btn btn-delete" data-idx="${realIdx}">✕</button>
+        </div>
+      </div>`;
+    }).join('');
+
+    container.querySelectorAll('.btn-complete').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const hikes = getHikes();
+        hikes[btn.dataset.idx].status = 'completed';
+        saveHikes(hikes);
+        renderLog();
+        updateStats();
+      });
+    });
+    container.querySelectorAll('.btn-delete').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const hikes = getHikes();
+        hikes.splice(btn.dataset.idx, 1);
+        saveHikes(hikes);
+        renderLog();
+        updateStats();
+      });
+    });
+  }
+
+  document.getElementById('btn-add-hike').addEventListener('click', () => {
+    const slug = document.getElementById('hike-trail').value;
+    if (!slug) { alert('Please select a trail.'); return; }
+    const trail  = allTrails.find(t => t.slug === slug);
+    const date   = document.getElementById('hike-date').value;
+    const friend = document.getElementById('hike-friend').value;
+    const notes  = document.getElementById('hike-notes').value.trim();
+    const hikes  = getHikes();
+    hikes.unshift({ trailSlug: slug, trailName: trail.name, date, friend, notes, status: 'planned', added: Date.now() });
+    saveHikes(hikes);
+    document.getElementById('hike-notes').value = '';
+    renderLog();
+    updateStats();
+  });
+
+  document.getElementById('btn-add-friend').addEventListener('click', () => {
+    const name = document.getElementById('friend-name').value.trim();
+    if (!name) { alert('Please enter a name.'); return; }
+    const friends = getFriends();
+    if (friends.includes(name)) { alert('Already in your crew!'); return; }
+    friends.push(name);
+    saveFriends(friends);
+    document.getElementById('friend-name').value = '';
+    renderFriends();
+    updateStats();
+  });
+
+  document.querySelectorAll('[data-log-filter]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('[data-log-filter]').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      logFilter = btn.dataset.logFilter;
+      renderLog();
+    });
+  });
+
+  loadTrails().then(trails => {
+    allTrails = trails;
+    const sel = document.getElementById('hike-trail');
+    sel.innerHTML = '<option value="">— Select a trail —</option>' +
+      trails.map(t => `<option value="${t.slug}">${t.name} (${t.reserve})</option>`).join('');
+    renderFriends();
+    renderLog();
+    updateStats();
+  });
+</script>
+</body>
+</html>

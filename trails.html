@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Trails — CT Hiking</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topo-bg">
+  <svg id="topo-svg" xmlns="http://www.w3.org/2000/svg"></svg>
+</div>
+
+<nav class="nav">
+  <a class="nav-logo" href="index.html">&#9968; CT <span>Hiking</span></a>
+  <button class="nav-toggle" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="trails.html">Trails</a></li>
+    <li><a href="map.html">Map</a></li>
+    <li><a href="tips.html">Tips &amp; Safety</a></li>
+    <li><a href="friends.html">Friends</a></li>
+  </ul>
+</nav>
+
+<div class="page-header">
+  <div class="container">
+    <h1>All Trails</h1>
+    <p>32 routes across Table Mountain National Park and CapeNature reserves</p>
+  </div>
+</div>
+
+<div class="page-content">
+  <div class="container">
+
+    <!-- Filters -->
+    <div class="filter-bar">
+      <label>Difficulty</label>
+      <button class="filter-btn active" data-filter="difficulty" data-value="all">All</button>
+      <button class="filter-btn" data-filter="difficulty" data-value="Easy">Easy</button>
+      <button class="filter-btn" data-filter="difficulty" data-value="Moderate">Moderate</button>
+      <button class="filter-btn" data-filter="difficulty" data-value="Hard">Hard</button>
+      <div class="filter-sep"></div>
+      <label>Source</label>
+      <button class="filter-btn active" data-filter="source" data-value="all">All</button>
+      <button class="filter-btn" data-filter="source" data-value="SANParks">SANParks</button>
+      <button class="filter-btn" data-filter="source" data-value="CapeNature">CapeNature</button>
+      <div class="trail-count" id="trail-count"></div>
+    </div>
+
+    <div class="cards-grid" id="trails-grid">
+      <p style="color:var(--text-muted)">Loading trails…</p>
+    </div>
+
+  </div>
+</div>
+
+<footer class="footer">
+  <p>Data sourced from <strong>SANParks</strong> and <strong>CapeNature</strong>. Built by <a href="https://github.com/tumi-m/ct-hiking" target="_blank">Tumi</a>.</p>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+  let allTrails = [];
+  let activeDifficulty = 'all';
+  let activeSource = 'all';
+
+  function applyFilters() {
+    const visible = allTrails.filter(t => {
+      const diffOk = activeDifficulty === 'all' || t.difficulty === activeDifficulty;
+      const srcOk  = activeSource     === 'all' || t.source     === activeSource;
+      return diffOk && srcOk;
+    });
+    document.getElementById('trails-grid').innerHTML =
+      visible.length ? visible.map(trailCard).join('') :
+      '<p style="color:var(--text-muted);grid-column:1/-1">No trails match these filters.</p>';
+    document.getElementById('trail-count').textContent = `${visible.length} trail${visible.length !== 1 ? 's' : ''}`;
+  }
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const filter = btn.dataset.filter;
+      const value  = btn.dataset.value;
+      document.querySelectorAll(`.filter-btn[data-filter="${filter}"]`).forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      if (filter === 'difficulty') activeDifficulty = value;
+      if (filter === 'source')     activeSource     = value;
+      applyFilters();
+    });
+  });
+
+  loadTrails().then(trails => {
+    allTrails = trails;
+    applyFilters();
+  });
+</script>
+</body>
+</html>

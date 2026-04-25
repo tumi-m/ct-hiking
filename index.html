@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CT Hiking — Cape Town Trails</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topo-bg">
+  <svg id="topo-svg" xmlns="http://www.w3.org/2000/svg"></svg>
+</div>
+
+<nav class="nav">
+  <a class="nav-logo" href="index.html">&#9968; CT <span>Hiking</span></a>
+  <button class="nav-toggle" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="trails.html">Trails</a></li>
+    <li><a href="map.html">Map</a></li>
+    <li><a href="tips.html">Tips &amp; Safety</a></li>
+    <li><a href="friends.html">Friends</a></li>
+  </ul>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Cape Town &amp; Western Cape</p>
+      <h1>Discover <em>wild</em> trails around the Cape</h1>
+      <p>Real hiking data from SANParks and CapeNature — trail maps, elevation profiles, difficulty ratings, and tips for every route.</p>
+      <div class="hero-actions">
+        <a class="btn btn-white" href="trails.html">Browse all trails</a>
+        <a class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,0.5)" href="map.html">Open map</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-value" id="stat-trails">32</div>
+        <div class="hero-stat-label">Trails</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-value">8</div>
+        <div class="hero-stat-label">Reserves</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-value">2</div>
+        <div class="hero-stat-label">Sources</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Source attribution -->
+<div class="sources-bar">
+  <div class="container">
+    <div class="source-item">
+      <div class="source-name">SANParks</div>
+      <div class="source-sub">Table Mountain National Park</div>
+    </div>
+    <div style="width:1px;height:36px;background:#e0dbd3"></div>
+    <div class="source-item">
+      <div class="source-name">CapeNature</div>
+      <div class="source-sub">Western Cape Nature Reserves</div>
+    </div>
+  </div>
+</div>
+
+<!-- Featured trails -->
+<div class="page-content">
+  <div class="container">
+    <div class="section-header">
+      <h2>Featured trails</h2>
+      <p>Iconic routes to get you started</p>
+    </div>
+    <div class="cards-grid" id="featured-grid">
+      <p style="color:var(--text-muted)">Loading trails…</p>
+    </div>
+    <div class="text-center mt-2">
+      <a class="btn btn-primary" href="trails.html">See all 32 trails →</a>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>Data sourced from <strong>SANParks</strong> and <strong>CapeNature</strong>. Built by <a href="https://github.com/tumi-m/ct-hiking" target="_blank">Tumi</a>.</p>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+  const FEATURED_SLUGS = ['lions-head', 'hoerikwaggo-trail', 'wolfberg-arch'];
+  loadTrails().then(trails => {
+    const featured = FEATURED_SLUGS.map(s => trails.find(t => t.slug === s)).filter(Boolean);
+    document.getElementById('featured-grid').innerHTML = featured.map(trailCard).join('');
+    document.getElementById('stat-trails').textContent = trails.length;
+  });
+</script>
+</body>
+</html>

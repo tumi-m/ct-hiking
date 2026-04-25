@@ -1,0 +1,970 @@
+[
+  {
+    "id": 1,
+    "slug": "lions-head",
+    "name": "Lion's Head",
+    "reserve": "Table Mountain National Park",
+    "source": "SANParks",
+    "difficulty": "Moderate",
+    "distance_km": 5,
+    "elevation_gain_m": 319,
+    "estimated_time": "2–3 hours",
+    "type": "Loop",
+    "description": "One of Cape Town's most iconic hikes, Lion's Head offers a circular route to the 669m summit with breathtaking 360° views of the City Bowl, Table Mountain, and the Atlantic Seaboard. The trail involves chain and ladder sections near the summit.",
+    "coordinates": { "lat": -33.9374, "lng": 18.3924 },
+    "polyline": [
+      [-33.9342, 18.3832], [-33.9350, 18.3855], [-33.9362, 18.3893],
+      [-33.9374, 18.3924], [-33.9366, 18.3900], [-33.9350, 18.3868], [-33.9342, 18.3832]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 350}, {"distance": 0.5, "elevation": 405},
+      {"distance": 1, "elevation": 465}, {"distance": 1.5, "elevation": 525},
+      {"distance": 2, "elevation": 585}, {"distance": 2.5, "elevation": 669},
+      {"distance": 3, "elevation": 620}, {"distance": 3.5, "elevation": 560},
+      {"distance": 4, "elevation": 490}, {"distance": 4.5, "elevation": 418},
+      {"distance": 5, "elevation": 350}
+    ],
+    "permit_required": false,
+    "permit_info": null,
+    "tags": ["iconic", "chains", "chains-and-ladders", "summit", "views"]
+  },
+  {
+    "id": 2,
+    "slug": "platteklip-gorge",
+    "name": "Platteklip Gorge",
+    "reserve": "Table Mountain National Park",
+    "source": "SANParks",
+    "difficulty": "Moderate",
+    "distance_km": 6,
+    "elevation_gain_m": 700,
+    "estimated_time": "2–3 hours",
+    "type": "Out & Back",
+    "description": "The most direct and popular route to the summit of Table Mountain. Well-constructed stone steps guide you up through the gorge on the mountain's north face. Steep but manageable, with no technical scrambling required. Take the cable car down if your legs give out.",
+    "coordinates": { "lat": -33.9527, "lng": 18.3969 },
+    "polyline": [
+      [-33.9527, 18.3969], [-33.9540, 18.3980], [-33.9555, 18.3993],
+      [-33.9570, 18.4005], [-33.9585, 18.4012], [-33.9598, 18.4022]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 350}, {"distance": 0.5, "elevation": 437},
+      {"distance": 1, "elevation": 525}, {"distance": 1.5, "elevation": 612},
+      {"distance": 2, "elevation": 700}, {"distance": 2.5, "elevation": 787},
+      {"distance": 3, "elevation": 1050}, {"distance": 3.5, "elevation": 960},
+      {"distance": 4, "elevation": 808}, {"distance": 4.5, "elevation": 612},
+      {"distance": 5, "elevation": 480}, {"distance": 5.5, "elevation": 415},
+      {"distance": 6, "elevation": 350}
+    ],
+    "permit_required": false,
+    "permit_info": null,
+    "tags": ["popular", "family-friendly", "steps", "summit", "cable-car"]
+  },
+  {
+    "id": 3,
+    "slug": "skeleton-gorge",
+    "name": "Skeleton Gorge",
+    "reserve": "Table Mountain National Park",
+    "source": "SANParks",
+    "difficulty": "Hard",
+    "distance_km": 6,
+    "elevation_gain_m": 900,
+    "estimated_time": "4–5 hours",
+    "type": "One Way",
+    "description": "Starting inside the Kirstenbosch National Botanical Garden, Skeleton Gorge (Smuts Track) ascends through lush Afromontane forest with wooden ladders and rocky scrambles. The hardest section of a rewarding route to the Table Mountain plateau.",
+    "coordinates": { "lat": -33.9871, "lng": 18.4322 },
+    "polyline": [
+      [-33.9871, 18.4322], [-33.9845, 18.4298], [-33.9815, 18.4268],
+      [-33.9785, 18.4235], [-33.9758, 18.4205], [-33.9738, 18.4182],
+      [-33.9720, 18.4162], [-33.9705, 18.4145]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 100}, {"distance": 0.5, "elevation": 175},
+      {"distance": 1, "elevation": 268}, {"distance": 1.5, "elevation": 375},
+      {"distance": 2, "elevation": 492}, {"distance": 2.5, "elevation": 600},
+      {"distance": 3, "elevation": 695}, {"distance": 3.5, "elevation": 778},
+      {"distance": 4, "elevation": 848}, {"distance": 4.5, "elevation": 905},
+      {"distance": 5, "elevation": 952}, {"distance": 5.5, "elevation": 985},
+      {"distance": 6, "elevation": 1005}
+    ],
+    "permit_required": false,
+    "permit_info": "Entry through Kirstenbosch Botanical Garden (fee applies).",
+    "tags": ["forest", "ladders", "kirstenbosch", "strenuous", "botanical-garden"]
+  },
+  {
+    "id": 4,
+    "slug": "india-venster",
+    "name": "India Venster",
+    "reserve": "Table Mountain National Park",
+    "source": "SANParks",
+    "difficulty": "Hard",
+    "distance_km": 6,
+    "elevation_gain_m": 700,
+    "estimated_time": "3–4 hours",
+    "type": "Out & Back",
+    "description": "A technical and less-crowded alternative to Platteklip Gorge on Table Mountain's front face. Expect rock scrambling and exposed sections with chains. Rewarding for those who prefer solitude and a more adventurous climb.",
+    "coordinates": { "lat": -33.9540, "lng": 18.3985 },
+    "polyline": [
+      [-33.9527, 18.3985], [-33.9538, 18.4000], [-33.9550, 18.4018],
+      [-33.9562, 18.4035], [-33.9575, 18.4050], [-33.9590, 18.4065]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 350}, {"distance": 0.5, "elevation": 445},
+      {"distance": 1, "elevation": 545}, {"distance": 1.5, "elevation": 645},
+      {"distance": 2, "elevation": 745}, {"distance": 2.5, "elevation": 840},
+      {"distance": 3, "elevation": 1050}, {"distance": 3.5, "elevation": 940},
+      {"distance": 4, "elevation": 810}, {"distance": 4.5, "elevation": 660},
+      {"distance": 5, "elevation": 510}, {"distance": 5.5, "elevation": 425},
+      {"distance": 6, "elevation": 350}
+    ],
+    "permit_required": false,
+    "permit_info": null,
+    "tags": ["technical", "scrambling", "chains", "quiet", "exposed"]
+  },
+  {
+    "id": 5,
+    "slug": "kasteelspoort",
+    "name": "Kasteelspoort",
+    "reserve": "Table Mountain National Park",
+    "source": "SANParks",
+    "difficulty": "Moderate",
+    "distance_km": 12,
+    "elevation_gain_m": 700,
+    "estimated_time": "3–4 hours",
+    "type": "Out & Back",
+    "description": "A longer but more gradual ascent of Table Mountain from the Camps Bay side. The trail winds through fynbos terrain with stunning views over the Atlantic Seaboard. Less steep than Platteklip, making it a good choice for those wanting a sustained hike.",
+    "coordinates": { "lat": -33.9580, "lng": 18.3800 },
+    "polyline": [
+      [-33.9540, 18.3800], [-33.9555, 18.3825], [-33.9570, 18.3855],
+      [-33.9583, 18.3885], [-33.9597, 18.3915], [-33.9610, 18.3945]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 200}, {"distance": 1, "elevation": 295},
+      {"distance": 2, "elevation": 402}, {"distance": 3, "elevation": 512},
+      {"distance": 4, "elevation": 618}, {"distance": 5, "elevation": 718},
+      {"distance": 6, "elevation": 900}, {"distance": 7, "elevation": 812},
+      {"distance": 8, "elevation": 712}, {"distance": 9, "elevation": 610},
+      {"distance": 10, "elevation": 508}, {"distance": 11, "elevation": 362},
+      {"distance": 12, "elevation": 200}
+    ],
+    "permit_required": false,
+    "permit_info": null,
+    "tags": ["camps-bay", "fynbos", "gradual", "atlantic-views"]
+  },
+  {
+    "id": 6,
+    "slug": "pipe-track",
+    "name": "Pipe Track",
+    "reserve": "Table Mountain National Park",
+    "source": "SANParks",
+    "difficulty": "Easy",
+    "distance_km": 6,
+    "elevation_gain_m": 200,
+    "estimated_time": "2–3 hours",
+    "type": "Out & Back",
+    "description": "A relatively easy contour path following an old water pipeline along the lower slopes of Table Mountain. No summit — just spectacular views of the Twelve Apostles and Atlantic Ocean. Perfect for families and first-time hikers.",
+    "coordinates": { "lat": -33.9558, "lng": 18.3800 },
+    "polyline": [
+      [-33.9542, 18.3865], [-33.9548, 18.3835], [-33.9558, 18.3805],
+      [-33.9570, 18.3775], [-33.9580, 18.3748], [-33.9588, 18.3720]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 300}, {"distance": 0.5, "elevation": 330},
+      {"distance": 1, "elevation": 365}, {"distance": 1.5, "elevation": 405},
+      {"distance": 2, "elevation": 445}, {"distance": 2.5, "elevation": 480},
+      {"distance": 3, "elevation": 500}, {"distance": 3.5, "elevation": 475},
+      {"distance": 4, "elevation": 450}, {"distance": 4.5, "elevation": 415},
+      {"distance": 5, "elevation": 372}, {"distance": 5.5, "elevation": 335},
+      {"distance": 6, "elevation": 300}
+    ],
+    "permit_required": false,
+    "permit_info": null,
+    "tags": ["easy", "family", "twelve-apostles", "coastal-views", "no-summit"]
+  },
+  {
+    "id": 7,
+    "slug": "chapmans-peak",
+    "name": "Chapman's Peak",
+    "reserve": "Table Mountain National Park",
+    "source": "SANParks",
+    "difficulty": "Moderate",
+    "distance_km": 5,
+    "elevation_gain_m": 503,
+    "estimated_time": "3 hours",
+    "type": "Out & Back",
+    "description": "A steady climb to the 593m Chapman's Peak summit above one of South Africa's most scenic coastal drives. The trail rewards with dramatic views over Hout Bay, Noordhoek Beach, and the Atlantic. Best done in the morning before sea mist rolls in.",
+    "coordinates": { "lat": -34.0926, "lng": 18.3622 },
+    "polyline": [
+      [-34.0850, 18.3698], [-34.0870, 18.3680], [-34.0890, 18.3658],
+      [-34.0908, 18.3640], [-34.0920, 18.3628], [-34.0926, 18.3622]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 90}, {"distance": 0.5, "elevation": 158},
+      {"distance": 1, "elevation": 248}, {"distance": 1.5, "elevation": 348},
+      {"distance": 2, "elevation": 448}, {"distance": 2.5, "elevation": 593},
+      {"distance": 3, "elevation": 490}, {"distance": 3.5, "elevation": 380},
+      {"distance": 4, "elevation": 272}, {"distance": 4.5, "elevation": 178},
+      {"distance": 5, "elevation": 90}
+    ],
+    "permit_required": false,
+    "permit_info": null,
+    "tags": ["coastal", "hout-bay", "noordhoek", "views", "sunrise"]
+  },
+  {
+    "id": 8,
+    "slug": "hoerikwaggo-trail",
+    "name": "Hoerikwaggo Trail",
+    "reserve": "Table Mountain National Park",
+    "source": "SANParks",
+    "difficulty": "Hard",
+    "distance_km": 75,
+    "elevation_gain_m": 2800,
+    "estimated_time": "5 days / 4 nights",
+    "type": "Multi-day",
+    "description": "An epic 5-day traverse of the entire Cape Peninsula from Cape Point to the Western Table of Table Mountain. The trail passes through fynbos, coastal dunes, mountain ridges, and indigenous forest — offering both Atlantic and False Bay views. One of South Africa's greatest wilderness walks.",
+    "coordinates": { "lat": -34.1800, "lng": 18.4200 },
+    "polyline": [
+      [-34.3568, 18.4976], [-34.2380, 18.3895], [-34.1420, 18.3302],
+      [-34.0914, 18.4213], [-34.0400, 18.3980], [-33.9700, 18.3900]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 20}, {"distance": 5, "elevation": 180},
+      {"distance": 10, "elevation": 350}, {"distance": 15, "elevation": 280},
+      {"distance": 20, "elevation": 420}, {"distance": 25, "elevation": 380},
+      {"distance": 30, "elevation": 520}, {"distance": 35, "elevation": 450},
+      {"distance": 40, "elevation": 620}, {"distance": 45, "elevation": 540},
+      {"distance": 50, "elevation": 720}, {"distance": 55, "elevation": 680},
+      {"distance": 60, "elevation": 820}, {"distance": 65, "elevation": 780},
+      {"distance": 70, "elevation": 920}, {"distance": 75, "elevation": 1086}
+    ],
+    "permit_required": true,
+    "permit_info": "Overnight permit required. Book through SANParks reservations. Huts provided at each stage.",
+    "tags": ["multi-day", "cape-point", "peninsula", "epic", "huts"]
+  },
+  {
+    "id": 9,
+    "slug": "swartboskloof-to-sosyskloof",
+    "name": "Swartboskloof to Sosyskloof",
+    "reserve": "Jonkershoek Nature Reserve",
+    "source": "CapeNature",
+    "difficulty": "Easy",
+    "distance_km": 5.3,
+    "elevation_gain_m": 200,
+    "estimated_time": "2–2.5 hours",
+    "type": "Out & Back",
+    "description": "An easy, scenic trail that ascends the western slopes of Swartboskloof through a patch of beautiful indigenous forest before following a contour path to Sosyskloof. Watch out for slippery sections after rain.",
+    "coordinates": { "lat": -33.9635, "lng": 18.9256 },
+    "polyline": [
+      [-33.9635, 18.9256], [-33.9618, 18.9282], [-33.9600, 18.9310],
+      [-33.9585, 18.9338], [-33.9572, 18.9362]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 200}, {"distance": 0.5, "elevation": 235},
+      {"distance": 1, "elevation": 275}, {"distance": 1.5, "elevation": 312},
+      {"distance": 2, "elevation": 348}, {"distance": 2.65, "elevation": 400},
+      {"distance": 3, "elevation": 372}, {"distance": 3.5, "elevation": 330},
+      {"distance": 4, "elevation": 295}, {"distance": 4.5, "elevation": 258},
+      {"distance": 5, "elevation": 222}, {"distance": 5.3, "elevation": 200}
+    ],
+    "permit_required": true,
+    "permit_info": "Day permit required from CapeNature. Exit by 18:00.",
+    "tags": ["forest", "indigenous", "easy", "jonkershoek", "family"]
+  },
+  {
+    "id": 10,
+    "slug": "swartboskloof-trail",
+    "name": "Swartboskloof Trail",
+    "reserve": "Jonkershoek Nature Reserve",
+    "source": "CapeNature",
+    "difficulty": "Hard",
+    "distance_km": 18,
+    "elevation_gain_m": 900,
+    "estimated_time": "6 hours",
+    "type": "One Way",
+    "description": "A steep, demanding ascent through Swartboskloof with over 900m of elevation gain in the first 4.5km. The trail levels near Kurktrekkernek with panoramic views, then descends to a spectacular waterfall. Bring a swimming costume.",
+    "coordinates": { "lat": -33.9510, "lng": 18.9450 },
+    "polyline": [
+      [-33.9635, 18.9256], [-33.9610, 18.9290], [-33.9580, 18.9338],
+      [-33.9548, 18.9392], [-33.9512, 18.9450], [-33.9478, 18.9510],
+      [-33.9445, 18.9565], [-33.9415, 18.9615]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 200}, {"distance": 1.5, "elevation": 390},
+      {"distance": 3, "elevation": 580}, {"distance": 4.5, "elevation": 1000},
+      {"distance": 6, "elevation": 1050}, {"distance": 8, "elevation": 1020},
+      {"distance": 10, "elevation": 950}, {"distance": 12, "elevation": 880},
+      {"distance": 14, "elevation": 800}, {"distance": 16, "elevation": 700},
+      {"distance": 18, "elevation": 600}
+    ],
+    "permit_required": true,
+    "permit_info": "Day permit required from CapeNature. Exit by 18:00.",
+    "tags": ["strenuous", "waterfall", "views", "swimming", "jonkershoek"]
+  },
+  {
+    "id": 11,
+    "slug": "panorama-circuit",
+    "name": "Panorama Circuit",
+    "reserve": "Jonkershoek Nature Reserve",
+    "source": "CapeNature",
+    "difficulty": "Hard",
+    "distance_km": 17,
+    "elevation_gain_m": 1027,
+    "estimated_time": "6 hours",
+    "type": "Loop",
+    "description": "A scenic circular trail climbing to a contour path below the Banhoek peaks. Traverses the Dwarsberg plateau with mountain streams and rare disas. An optional detour to Guardian Peak (1,227m) gives panoramic views from Table Mountain to Cape Point.",
+    "coordinates": { "lat": -33.9470, "lng": 18.9380 },
+    "polyline": [
+      [-33.9635, 18.9256], [-33.9598, 18.9310], [-33.9560, 18.9370],
+      [-33.9515, 18.9435], [-33.9470, 18.9380], [-33.9510, 18.9312],
+      [-33.9558, 18.9272], [-33.9635, 18.9256]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 200}, {"distance": 2, "elevation": 420},
+      {"distance": 4, "elevation": 680}, {"distance": 6, "elevation": 900},
+      {"distance": 8, "elevation": 1100}, {"distance": 10, "elevation": 1227},
+      {"distance": 11, "elevation": 1180}, {"distance": 12, "elevation": 1050},
+      {"distance": 13, "elevation": 900}, {"distance": 14, "elevation": 720},
+      {"distance": 15, "elevation": 540}, {"distance": 16, "elevation": 370},
+      {"distance": 17, "elevation": 200}
+    ],
+    "permit_required": true,
+    "permit_info": "Day permit required from CapeNature. Exit by 18:00.",
+    "tags": ["loop", "disas", "guardian-peak", "views", "plateau"]
+  },
+  {
+    "id": 12,
+    "slug": "tweede-waterval",
+    "name": "Tweede Waterval",
+    "reserve": "Jonkershoek Nature Reserve",
+    "source": "CapeNature",
+    "difficulty": "Easy",
+    "distance_km": 6.4,
+    "elevation_gain_m": 195,
+    "estimated_time": "2 hours",
+    "type": "Out & Back",
+    "description": "An easy ramble along the Eerste River, past the first waterfall and up a gorge to the foot of the Second Waterfall (Tweede Waterval). Slippery when wet. Bring a swimming costume for the rock pools.",
+    "coordinates": { "lat": -33.9680, "lng": 18.9390 },
+    "polyline": [
+      [-33.9635, 18.9256], [-33.9650, 18.9300], [-33.9668, 18.9348],
+      [-33.9680, 18.9390], [-33.9692, 18.9425]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 200}, {"distance": 0.5, "elevation": 225},
+      {"distance": 1, "elevation": 255}, {"distance": 1.5, "elevation": 285},
+      {"distance": 2, "elevation": 315}, {"distance": 2.5, "elevation": 348},
+      {"distance": 3, "elevation": 375}, {"distance": 3.2, "elevation": 395},
+      {"distance": 3.5, "elevation": 370}, {"distance": 4, "elevation": 330},
+      {"distance": 4.5, "elevation": 290}, {"distance": 5, "elevation": 252},
+      {"distance": 5.5, "elevation": 225}, {"distance": 6, "elevation": 200},
+      {"distance": 6.4, "elevation": 200}
+    ],
+    "permit_required": true,
+    "permit_info": "Day permit required from CapeNature. Exit by 18:00.",
+    "tags": ["waterfall", "river", "swimming", "easy", "family"]
+  },
+  {
+    "id": 13,
+    "slug": "bobbejaans-river-trail",
+    "name": "Bobbejaans River Trail",
+    "reserve": "Limietberg Nature Reserve",
+    "source": "CapeNature",
+    "difficulty": "Moderate",
+    "distance_km": 8,
+    "elevation_gain_m": 400,
+    "estimated_time": "6 hours",
+    "type": "Out & Back",
+    "description": "A scenic trail starting at Bainskloof Corner Lodge that winds across the Bobbejaans River with mountain pools and a spectacular three-tiered waterfall. Best hiked in summer when wildflowers bloom alongside the path.",
+    "coordinates": { "lat": -33.6570, "lng": 19.0995 },
+    "polyline": [
+      [-33.6440, 19.0750], [-33.6462, 19.0792], [-33.6485, 19.0838],
+      [-33.6510, 19.0882], [-33.6530, 19.0920], [-33.6552, 19.0958],
+      [-33.6570, 19.0995], [-33.6588, 19.1030]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 430}, {"distance": 1, "elevation": 490},
+      {"distance": 2, "elevation": 560}, {"distance": 3, "elevation": 638},
+      {"distance": 4, "elevation": 720}, {"distance": 5, "elevation": 800},
+      {"distance": 5.5, "elevation": 830}, {"distance": 6, "elevation": 790},
+      {"distance": 7, "elevation": 650}, {"distance": 8, "elevation": 430}
+    ],
+    "permit_required": true,
+    "permit_info": "Day permit required from CapeNature.",
+    "tags": ["waterfall", "river", "wildflowers", "swimming", "bainskloof"]
+  },
+  {
+    "id": 14,
+    "slug": "happy-valley-trail",
+    "name": "Happy Valley Trail",
+    "reserve": "Limietberg Nature Reserve",
+    "source": "CapeNature",
+    "difficulty": "Easy",
+    "distance_km": 9,
+    "elevation_gain_m": 195,
+    "estimated_time": "6 hours",
+    "type": "One Way",
+    "description": "A family-friendly route beginning at Eerste Tol in Bainskloof. The trail passes historic ruins and a monument commemorating the 1895 Witte River disaster, ending at Junction Pools — a beautiful swimming spot.",
+    "coordinates": { "lat": -33.6650, "lng": 19.1050 },
+    "polyline": [
+      [-33.6550, 19.1200], [-33.6575, 19.1162], [-33.6600, 19.1125],
+      [-33.6625, 19.1088], [-33.6650, 19.1050], [-33.6672, 19.1015],
+      [-33.6695, 19.0980], [-33.6720, 19.0950]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 430}, {"distance": 1, "elevation": 450},
+      {"distance": 2, "elevation": 475}, {"distance": 3, "elevation": 502},
+      {"distance": 4, "elevation": 530}, {"distance": 5, "elevation": 558},
+      {"distance": 6, "elevation": 580}, {"distance": 7, "elevation": 600},
+      {"distance": 8, "elevation": 615}, {"distance": 9, "elevation": 625}
+    ],
+    "permit_required": true,
+    "permit_info": "Day permit required from CapeNature.",
+    "tags": ["history", "swimming", "family", "easy", "bainskloof"]
+  },
+  {
+    "id": 15,
+    "slug": "krom-river-trail",
+    "name": "Krom River Trail",
+    "reserve": "Limietberg Nature Reserve",
+    "source": "CapeNature",
+    "difficulty": "Easy",
+    "distance_km": 7,
+    "elevation_gain_m": 265,
+    "estimated_time": "5 hours",
+    "type": "One Way",
+    "description": "Starting just after the Worcester exit of the Huguenot Tunnel in Du Toitskloof, this trail passes two waterfalls and riverine forest. A rope may be required between cascades on the steeper sections.",
+    "coordinates": { "lat": -33.7190, "lng": 19.0812 },
+    "polyline": [
+      [-33.7250, 19.0670], [-33.7228, 19.0702], [-33.7208, 19.0738],
+      [-33.7188, 19.0775], [-33.7170, 19.0812], [-33.7152, 19.0848],
+      [-33.7135, 19.0882]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 500}, {"distance": 1, "elevation": 535},
+      {"distance": 2, "elevation": 580}, {"distance": 3, "elevation": 628},
+      {"distance": 4, "elevation": 672}, {"distance": 5, "elevation": 710},
+      {"distance": 6, "elevation": 742}, {"distance": 7, "elevation": 765}
+    ],
+    "permit_required": true,
+    "permit_info": "Day permit required from CapeNature.",
+    "tags": ["waterfall", "forest", "river", "du-toitskloof", "easy"]
+  },
+  {
+    "id": 16,
+    "slug": "eland-river-trail",
+    "name": "Eland River Trail",
+    "reserve": "Limietberg Nature Reserve",
+    "source": "CapeNature",
+    "difficulty": "Moderate",
+    "distance_km": 7,
+    "elevation_gain_m": 350,
+    "estimated_time": "5 hours",
+    "type": "One Way",
+    "description": "A winter-suitable hike from Du Toitskloof with steep initial sections that give way to panoramic valley views. The trail ends at Fisherman's Cave near the conservation boundary.",
+    "coordinates": { "lat": -33.7210, "lng": 19.0582 },
+    "polyline": [
+      [-33.7270, 19.0680], [-33.7248, 19.0648], [-33.7228, 19.0615],
+      [-33.7210, 19.0582], [-33.7195, 19.0548], [-33.7182, 19.0515],
+      [-33.7170, 19.0480]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 500}, {"distance": 1, "elevation": 558},
+      {"distance": 2, "elevation": 628}, {"distance": 3, "elevation": 705},
+      {"distance": 4, "elevation": 778}, {"distance": 5, "elevation": 838},
+      {"distance": 6, "elevation": 870}, {"distance": 7, "elevation": 850}
+    ],
+    "permit_required": true,
+    "permit_info": "Day permit required from CapeNature.",
+    "tags": ["valley-views", "cave", "moderate", "du-toitskloof", "winter-hike"]
+  },
+  {
+    "id": 17,
+    "slug": "rockhopper-trail",
+    "name": "Rockhopper Trail",
+    "reserve": "Limietberg Nature Reserve",
+    "source": "CapeNature",
+    "difficulty": "Hard",
+    "distance_km": 8,
+    "elevation_gain_m": 450,
+    "estimated_time": "6 hours",
+    "type": "One Way",
+    "description": "For the adventurous hiker. This trail involves rock hopping, swimming, and finding your own way down the boulder-strewn Witte River bed. No marked route — this is navigation by instinct through one of the most dramatic gorges in the Boland.",
+    "coordinates": { "lat": -33.6350, "lng": 19.0605 },
+    "polyline": [
+      [-33.6440, 19.0750], [-33.6415, 19.0715], [-33.6392, 19.0680],
+      [-33.6370, 19.0642], [-33.6350, 19.0605], [-33.6330, 19.0568],
+      [-33.6312, 19.0530], [-33.6298, 19.0492]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 430}, {"distance": 1, "elevation": 480},
+      {"distance": 2, "elevation": 542}, {"distance": 3, "elevation": 612},
+      {"distance": 4, "elevation": 695}, {"distance": 5, "elevation": 778},
+      {"distance": 6, "elevation": 838}, {"distance": 7, "elevation": 860},
+      {"distance": 8, "elevation": 880}
+    ],
+    "permit_required": true,
+    "permit_info": "Day permit required from CapeNature.",
+    "tags": ["scrambling", "river", "navigation", "adventure", "gorge"]
+  },
+  {
+    "id": 18,
+    "slug": "uitkyk-trail",
+    "name": "Uitkyk Trail",
+    "reserve": "Cederberg Wilderness Area",
+    "source": "CapeNature",
+    "difficulty": "Moderate",
+    "distance_km": 5,
+    "elevation_gain_m": 400,
+    "estimated_time": "3 hours",
+    "type": "Out & Back",
+    "description": "A short, steep trail from the Algeria campsite that offers fantastic views over the Cederberg Mountains and the Algeria valley. A great introduction to the Cederberg landscape without committing to a full day.",
+    "coordinates": { "lat": -32.3780, "lng": 19.0170 },
+    "polyline": [
+      [-32.3780, 19.0170], [-32.3755, 19.0195], [-32.3730, 19.0222],
+      [-32.3708, 19.0250], [-32.3688, 19.0278], [-32.3670, 19.0305]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 1000}, {"distance": 0.5, "elevation": 1080},
+      {"distance": 1, "elevation": 1165}, {"distance": 1.5, "elevation": 1252},
+      {"distance": 2, "elevation": 1338}, {"distance": 2.5, "elevation": 1400},
+      {"distance": 3, "elevation": 1342}, {"distance": 3.5, "elevation": 1275},
+      {"distance": 4, "elevation": 1200}, {"distance": 4.5, "elevation": 1100},
+      {"distance": 5, "elevation": 1000}
+    ],
+    "permit_required": true,
+    "permit_info": "Permit required from Algeria Camp office. Minimum 3 adult hikers.",
+    "tags": ["views", "algeria", "cederberg", "short", "lookout"]
+  },
+  {
+    "id": 19,
+    "slug": "waterfall-trail-cederberg",
+    "name": "Waterfall Trail",
+    "reserve": "Cederberg Wilderness Area",
+    "source": "CapeNature",
+    "difficulty": "Moderate",
+    "distance_km": 7,
+    "elevation_gain_m": 350,
+    "estimated_time": "3 hours",
+    "type": "Out & Back",
+    "description": "A moderately steep, well-marked trail from Algeria to the Middelberg Waterfall. The route follows the river through dramatic Cederberg scenery — ochre sandstone cliffs, fynbos, and proteas.",
+    "coordinates": { "lat": -32.3905, "lng": 19.0335 },
+    "polyline": [
+      [-32.3780, 19.0170], [-32.3808, 19.0202], [-32.3838, 19.0238],
+      [-32.3862, 19.0270], [-32.3885, 19.0302], [-32.3905, 19.0335],
+      [-32.3922, 19.0365]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 1000}, {"distance": 0.5, "elevation": 1055},
+      {"distance": 1, "elevation": 1118}, {"distance": 1.5, "elevation": 1182},
+      {"distance": 2, "elevation": 1248}, {"distance": 2.5, "elevation": 1315},
+      {"distance": 3, "elevation": 1350}, {"distance": 3.5, "elevation": 1310},
+      {"distance": 4, "elevation": 1255}, {"distance": 4.5, "elevation": 1192},
+      {"distance": 5, "elevation": 1128}, {"distance": 5.5, "elevation": 1060},
+      {"distance": 6, "elevation": 1005}, {"distance": 6.5, "elevation": 975},
+      {"distance": 7, "elevation": 1000}
+    ],
+    "permit_required": true,
+    "permit_info": "Permit required from Algeria Camp office. Minimum 3 adult hikers.",
+    "tags": ["waterfall", "river", "sandstone", "cederberg", "proteas"]
+  },
+  {
+    "id": 20,
+    "slug": "maltese-cross",
+    "name": "Maltese Cross",
+    "reserve": "Cederberg Wilderness Area",
+    "source": "CapeNature",
+    "difficulty": "Moderate",
+    "distance_km": 10,
+    "elevation_gain_m": 600,
+    "estimated_time": "5 hours",
+    "type": "Out & Back",
+    "description": "A well-marked trail from Sanddrif farm to one of the Cederberg's most famous landmarks — a 20m tall Maltese Cross-shaped sandstone formation. The walk begins gently before climbing through dramatic red rock scenery.",
+    "coordinates": { "lat": -32.4248, "lng": 19.1368 },
+    "polyline": [
+      [-32.4080, 19.1180], [-32.4112, 19.1215], [-32.4148, 19.1255],
+      [-32.4180, 19.1295], [-32.4215, 19.1335], [-32.4248, 19.1368],
+      [-32.4290, 19.1385]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 800}, {"distance": 1, "elevation": 885},
+      {"distance": 2, "elevation": 980}, {"distance": 3, "elevation": 1082},
+      {"distance": 4, "elevation": 1195}, {"distance": 5, "elevation": 1320},
+      {"distance": 5.5, "elevation": 1400}, {"distance": 6, "elevation": 1320},
+      {"distance": 7, "elevation": 1200}, {"distance": 8, "elevation": 1080},
+      {"distance": 9, "elevation": 935}, {"distance": 10, "elevation": 800}
+    ],
+    "permit_required": true,
+    "permit_info": "Permit required from Sanddrif Private Nature Reserve.",
+    "tags": ["rock-formation", "sandstone", "landmark", "cederberg", "scenic"]
+  },
+  {
+    "id": 21,
+    "slug": "wolfberg-arch",
+    "name": "Wolfberg Arch",
+    "reserve": "Cederberg Wilderness Area",
+    "source": "CapeNature",
+    "difficulty": "Hard",
+    "distance_km": 14,
+    "elevation_gain_m": 820,
+    "estimated_time": "8 hours",
+    "type": "Out & Back",
+    "description": "Strenuous but spectacular, this trail climbs through the Wolfberg Cracks — a series of narrow rock fissures — before reaching the enormous natural arch formation. Not for beginners. Start early and carry plenty of water.",
+    "coordinates": { "lat": -32.3820, "lng": 19.1648 },
+    "polyline": [
+      [-32.4080, 19.1180], [-32.4045, 19.1240], [-32.4010, 19.1310],
+      [-32.3975, 19.1378], [-32.3940, 19.1445], [-32.3900, 19.1510],
+      [-32.3862, 19.1578], [-32.3820, 19.1648]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 800}, {"distance": 1, "elevation": 895},
+      {"distance": 2, "elevation": 1002}, {"distance": 3, "elevation": 1118},
+      {"distance": 4, "elevation": 1245}, {"distance": 5, "elevation": 1375},
+      {"distance": 6, "elevation": 1498}, {"distance": 7, "elevation": 1620},
+      {"distance": 8, "elevation": 1545}, {"distance": 9, "elevation": 1432},
+      {"distance": 10, "elevation": 1318}, {"distance": 11, "elevation": 1198},
+      {"distance": 12, "elevation": 1082}, {"distance": 13, "elevation": 938},
+      {"distance": 14, "elevation": 800}
+    ],
+    "permit_required": true,
+    "permit_info": "Permit required from Sanddrif Private Nature Reserve.",
+    "tags": ["arch", "cracks", "strenuous", "cederberg", "rock-formation"]
+  },
+  {
+    "id": 22,
+    "slug": "palmiet-river-walk",
+    "name": "Palmiet River Walk",
+    "reserve": "Kogelberg Nature Reserve",
+    "source": "CapeNature",
+    "difficulty": "Easy",
+    "distance_km": 10,
+    "elevation_gain_m": 105,
+    "estimated_time": "3 hours",
+    "type": "Out & Back",
+    "description": "An easy venture along the Palmiet River through the Kogelberg Biosphere Reserve — a World Heritage Site known for extraordinary floral diversity. Designated swimming spots make this ideal for a summer outing. Start by 14:00.",
+    "coordinates": { "lat": -34.3100, "lng": 18.9502 },
+    "polyline": [
+      [-34.3220, 18.9660], [-34.3188, 18.9622], [-34.3158, 18.9582],
+      [-34.3128, 18.9542], [-34.3100, 18.9502], [-34.3072, 18.9462],
+      [-34.3045, 18.9422], [-34.3018, 18.9382], [-34.2990, 18.9342],
+      [-34.2962, 18.9305]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 100}, {"distance": 1, "elevation": 118},
+      {"distance": 2, "elevation": 138}, {"distance": 3, "elevation": 155},
+      {"distance": 4, "elevation": 170}, {"distance": 5, "elevation": 185},
+      {"distance": 6, "elevation": 198}, {"distance": 7, "elevation": 205},
+      {"distance": 8, "elevation": 195}, {"distance": 9, "elevation": 148},
+      {"distance": 10, "elevation": 100}
+    ],
+    "permit_required": true,
+    "permit_info": "Permit required from CapeNature. Start by 14:00.",
+    "tags": ["river", "swimming", "fynbos", "world-heritage", "easy"]
+  },
+  {
+    "id": 23,
+    "slug": "three-sisters-trail",
+    "name": "Three Sisters Trail",
+    "reserve": "Kogelberg Nature Reserve",
+    "source": "CapeNature",
+    "difficulty": "Moderate",
+    "distance_km": 8,
+    "elevation_gain_m": 350,
+    "estimated_time": "4 hours",
+    "type": "Out & Back",
+    "description": "A moderate hike starting at Kleinmond Golf Course into the Kogelberg mountains. No permit required for this trail. Fynbos-covered slopes with good views over Walker Bay.",
+    "coordinates": { "lat": -34.3272, "lng": 19.0182 },
+    "polyline": [
+      [-34.3380, 19.0330], [-34.3355, 19.0295], [-34.3328, 19.0258],
+      [-34.3300, 19.0220], [-34.3272, 19.0182], [-34.3245, 19.0145],
+      [-34.3218, 19.0108], [-34.3192, 19.0072]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 10}, {"distance": 1, "elevation": 65},
+      {"distance": 2, "elevation": 135}, {"distance": 3, "elevation": 215},
+      {"distance": 4, "elevation": 295}, {"distance": 5, "elevation": 360},
+      {"distance": 6, "elevation": 295}, {"distance": 7, "elevation": 175},
+      {"distance": 8, "elevation": 10}
+    ],
+    "permit_required": false,
+    "permit_info": "No permit required. Start by 13:00.",
+    "tags": ["kleinmond", "fynbos", "walker-bay", "accessible", "moderate"]
+  },
+  {
+    "id": 24,
+    "slug": "kogelberg-trail",
+    "name": "Kogelberg Trail",
+    "reserve": "Kogelberg Nature Reserve",
+    "source": "CapeNature",
+    "difficulty": "Moderate",
+    "distance_km": 24,
+    "elevation_gain_m": 800,
+    "estimated_time": "8 hours",
+    "type": "Loop",
+    "description": "A long day hike traversing a gorge through montane forest patches in the heart of the Kogelberg Biosphere. The trail covers the full range of the reserve's terrain. Begin by 10:00 in summer. Rough terrain and unpredictable weather — be prepared.",
+    "coordinates": { "lat": -34.2872, "lng": 18.9175 },
+    "polyline": [
+      [-34.3220, 18.9660], [-34.3170, 18.9580], [-34.3115, 18.9495],
+      [-34.3060, 18.9412], [-34.2998, 18.9330], [-34.2935, 18.9252],
+      [-34.2872, 18.9175], [-34.2810, 18.9098], [-34.2748, 18.9025]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 100}, {"distance": 2, "elevation": 195},
+      {"distance": 4, "elevation": 312}, {"distance": 6, "elevation": 445},
+      {"distance": 8, "elevation": 578}, {"distance": 10, "elevation": 698},
+      {"distance": 12, "elevation": 812}, {"distance": 14, "elevation": 900},
+      {"distance": 16, "elevation": 858}, {"distance": 18, "elevation": 750},
+      {"distance": 20, "elevation": 595}, {"distance": 22, "elevation": 380},
+      {"distance": 24, "elevation": 100}
+    ],
+    "permit_required": true,
+    "permit_info": "Day permit required from CapeNature. Begin by 10:00 in summer.",
+    "tags": ["gorge", "forest", "long", "biosphere", "world-heritage"]
+  },
+  {
+    "id": 25,
+    "slug": "perdeberg-trail",
+    "name": "Perdeberg Trail",
+    "reserve": "Kogelberg Nature Reserve",
+    "source": "CapeNature",
+    "difficulty": "Moderate",
+    "distance_km": 22,
+    "elevation_gain_m": 748,
+    "estimated_time": "7–8 hours",
+    "type": "One Way",
+    "description": "Starting from Iona Wine Estate, this trail climbs to a peak lookout with sweeping views over the Kogelberg Biosphere. A full day route through pristine fynbos and montane terrain. Begin by 10:00 in summer.",
+    "coordinates": { "lat": -34.2705, "lng": 18.9510 },
+    "polyline": [
+      [-34.2870, 18.9200], [-34.2840, 18.9260], [-34.2808, 18.9322],
+      [-34.2775, 18.9385], [-34.2740, 18.9448], [-34.2705, 18.9510],
+      [-34.2672, 18.9572], [-34.2638, 18.9635]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 100}, {"distance": 2, "elevation": 185},
+      {"distance": 4, "elevation": 295}, {"distance": 6, "elevation": 412},
+      {"distance": 8, "elevation": 532}, {"distance": 10, "elevation": 648},
+      {"distance": 12, "elevation": 755}, {"distance": 14, "elevation": 848},
+      {"distance": 16, "elevation": 820}, {"distance": 18, "elevation": 680},
+      {"distance": 20, "elevation": 450}, {"distance": 22, "elevation": 100}
+    ],
+    "permit_required": true,
+    "permit_info": "Day permit required from CapeNature. Begin by 10:00 in summer.",
+    "tags": ["peak", "views", "fynbos", "wine-estate", "long-day"]
+  },
+  {
+    "id": 26,
+    "slug": "houwhoek-trail",
+    "name": "Houwhoek Trail",
+    "reserve": "Kogelberg Nature Reserve",
+    "source": "CapeNature",
+    "difficulty": "Moderate",
+    "distance_km": 8,
+    "elevation_gain_m": 300,
+    "estimated_time": "3 hours",
+    "type": "Out & Back",
+    "description": "A moderate trail beginning from the historic Houwhoek Inn. Climbs through fynbos with good views over the Overberg. A relaxed half-day option that pairs well with lunch at the inn. Start by 14:00.",
+    "coordinates": { "lat": -34.2458, "lng": 19.0960 },
+    "polyline": [
+      [-34.2280, 19.1230], [-34.2308, 19.1185], [-34.2338, 19.1140],
+      [-34.2368, 19.1095], [-34.2398, 19.1050], [-34.2428, 19.1005],
+      [-34.2458, 19.0960], [-34.2488, 19.0915]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 200}, {"distance": 1, "elevation": 255},
+      {"distance": 2, "elevation": 318}, {"distance": 3, "elevation": 385},
+      {"distance": 4, "elevation": 452}, {"distance": 5, "elevation": 500},
+      {"distance": 6, "elevation": 440}, {"distance": 7, "elevation": 335},
+      {"distance": 8, "elevation": 200}
+    ],
+    "permit_required": true,
+    "permit_info": "Day permit required from CapeNature. Start by 14:00.",
+    "tags": ["inn", "fynbos", "overberg", "half-day", "views"]
+  },
+  {
+    "id": 27,
+    "slug": "twaalfuurkop-peak",
+    "name": "Twaalfuurkop Peak",
+    "reserve": "Marloth Nature Reserve",
+    "source": "CapeNature",
+    "difficulty": "Hard",
+    "distance_km": 12.4,
+    "elevation_gain_m": 1150,
+    "estimated_time": "6 hours",
+    "type": "Out & Back",
+    "description": "Starting from the Marloth reserve office in Swellendam, this challenging hike climbs to the 1,450m Twaalfuurkop summit with breathtaking views of the entire Langeberg Mountains, the Rûensveld, and on a clear day, the Indian Ocean.",
+    "coordinates": { "lat": -34.0240, "lng": 20.4190 },
+    "polyline": [
+      [-34.0240, 20.4190], [-34.0218, 20.4158], [-34.0195, 20.4122],
+      [-34.0172, 20.4085], [-34.0148, 20.4048], [-34.0125, 20.4012],
+      [-34.0102, 20.3978], [-34.0080, 20.3945], [-34.0058, 20.3912],
+      [-34.0040, 20.3882], [-34.0022, 20.3952], [-34.0010, 20.3985]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 300}, {"distance": 1, "elevation": 395},
+      {"distance": 2, "elevation": 510}, {"distance": 3, "elevation": 645},
+      {"distance": 4, "elevation": 790}, {"distance": 5, "elevation": 945},
+      {"distance": 6, "elevation": 1100}, {"distance": 6.2, "elevation": 1450},
+      {"distance": 7, "elevation": 1300}, {"distance": 8, "elevation": 1120},
+      {"distance": 9, "elevation": 940}, {"distance": 10, "elevation": 760},
+      {"distance": 11, "elevation": 560}, {"distance": 12, "elevation": 400},
+      {"distance": 12.4, "elevation": 300}
+    ],
+    "permit_required": true,
+    "permit_info": "Day permit required from CapeNature / Marloth reserve office.",
+    "tags": ["summit", "views", "langeberg", "strenuous", "swellendam"]
+  },
+  {
+    "id": 28,
+    "slug": "duiwelsbos-waterfall",
+    "name": "Duiwelsbos Waterfall",
+    "reserve": "Marloth Nature Reserve",
+    "source": "CapeNature",
+    "difficulty": "Easy",
+    "distance_km": 2,
+    "elevation_gain_m": 120,
+    "estimated_time": "2 hours",
+    "type": "Out & Back",
+    "description": "A lovely short hike starting at the Koloniesbos parking area leading to the beautiful Duiwelsbos Waterfall through cool indigenous forest. Ideal for families and those wanting a gentle forest walk in the Swellendam area.",
+    "coordinates": { "lat": -34.0180, "lng": 20.4120 },
+    "polyline": [
+      [-34.0180, 20.4120], [-34.0162, 20.4095], [-34.0145, 20.4068],
+      [-34.0130, 20.4042]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 300}, {"distance": 0.25, "elevation": 325},
+      {"distance": 0.5, "elevation": 352}, {"distance": 0.75, "elevation": 378},
+      {"distance": 1, "elevation": 412}, {"distance": 1.25, "elevation": 420},
+      {"distance": 1.5, "elevation": 412}, {"distance": 1.75, "elevation": 362},
+      {"distance": 2, "elevation": 300}
+    ],
+    "permit_required": true,
+    "permit_info": "Day permit required from CapeNature / Marloth reserve office.",
+    "tags": ["waterfall", "forest", "easy", "family", "swellendam"]
+  },
+  {
+    "id": 29,
+    "slug": "plaat-loop",
+    "name": "Plaat Loop",
+    "reserve": "Marloth Nature Reserve",
+    "source": "CapeNature",
+    "difficulty": "Moderate",
+    "distance_km": 12,
+    "elevation_gain_m": 405,
+    "estimated_time": "3 hours",
+    "type": "Loop",
+    "description": "A moderate circular hike with inspiring mountain views and plenty of cool streams to swim in along the trail. The loop offers a taste of the Langeberg Mountains without the full commitment of the summit hike.",
+    "coordinates": { "lat": -34.0348, "lng": 20.4318 },
+    "polyline": [
+      [-34.0240, 20.4190], [-34.0268, 20.4220], [-34.0295, 20.4252],
+      [-34.0322, 20.4285], [-34.0348, 20.4318], [-34.0372, 20.4350],
+      [-34.0358, 20.4312], [-34.0332, 20.4278], [-34.0305, 20.4245],
+      [-34.0278, 20.4212], [-34.0252, 20.4200], [-34.0240, 20.4190]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 300}, {"distance": 1, "elevation": 360},
+      {"distance": 2, "elevation": 432}, {"distance": 3, "elevation": 512},
+      {"distance": 4, "elevation": 598}, {"distance": 5, "elevation": 678},
+      {"distance": 6, "elevation": 705}, {"distance": 7, "elevation": 688},
+      {"distance": 8, "elevation": 640}, {"distance": 9, "elevation": 560},
+      {"distance": 10, "elevation": 462}, {"distance": 11, "elevation": 375},
+      {"distance": 12, "elevation": 300}
+    ],
+    "permit_required": true,
+    "permit_info": "Day permit required from CapeNature / Marloth reserve office.",
+    "tags": ["loop", "swimming", "views", "langeberg", "streams"]
+  },
+  {
+    "id": 30,
+    "slug": "gap-circuit",
+    "name": "Gap Circuit",
+    "reserve": "Robberg Nature Reserve",
+    "source": "CapeNature",
+    "difficulty": "Easy",
+    "distance_km": 2.1,
+    "elevation_gain_m": 55,
+    "estimated_time": "30 minutes",
+    "type": "Loop",
+    "description": "The shortest route around Robberg Peninsula, entering a mudstone cleft that shows evidence of the prehistoric break-up of Gondwanaland 120 million years ago. The quickest way to experience this extraordinary coastal reserve near Plettenberg Bay.",
+    "coordinates": { "lat": -34.1055, "lng": 23.3980 },
+    "polyline": [
+      [-34.1043, 23.3921], [-34.1060, 23.3948], [-34.1075, 23.3972],
+      [-34.1085, 23.3992], [-34.1075, 23.3972], [-34.1060, 23.3948],
+      [-34.1043, 23.3921]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 10}, {"distance": 0.25, "elevation": 22},
+      {"distance": 0.5, "elevation": 38}, {"distance": 0.75, "elevation": 52},
+      {"distance": 1, "elevation": 62}, {"distance": 1.05, "elevation": 65},
+      {"distance": 1.25, "elevation": 55}, {"distance": 1.5, "elevation": 42},
+      {"distance": 1.75, "elevation": 28}, {"distance": 2, "elevation": 18},
+      {"distance": 2.1, "elevation": 10}
+    ],
+    "permit_required": true,
+    "permit_info": "Conservation fee required at entrance gate.",
+    "tags": ["quick", "coastal", "geology", "seals", "plett"]
+  },
+  {
+    "id": 31,
+    "slug": "witsand-circuit",
+    "name": "Witsand Circuit",
+    "reserve": "Robberg Nature Reserve",
+    "source": "CapeNature",
+    "difficulty": "Moderate",
+    "distance_km": 5.5,
+    "elevation_gain_m": 108,
+    "estimated_time": "2 hours",
+    "type": "Loop",
+    "description": "The middle route around Robberg Peninsula, traversing the northern ridge above seal colonies and passing kelp gull populations at the boardwalk. Sea views on all sides with opportunities to spot dolphins and whales in season.",
+    "coordinates": { "lat": -34.1118, "lng": 23.4028 },
+    "polyline": [
+      [-34.1043, 23.3921], [-34.1070, 23.3960], [-34.1095, 23.3995],
+      [-34.1118, 23.4028], [-34.1140, 23.4060], [-34.1128, 23.4038],
+      [-34.1105, 23.4005], [-34.1080, 23.3970], [-34.1055, 23.3938],
+      [-34.1043, 23.3921]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 10}, {"distance": 0.5, "elevation": 28},
+      {"distance": 1, "elevation": 52}, {"distance": 1.5, "elevation": 78},
+      {"distance": 2, "elevation": 100}, {"distance": 2.5, "elevation": 118},
+      {"distance": 3, "elevation": 108}, {"distance": 3.5, "elevation": 92},
+      {"distance": 4, "elevation": 72}, {"distance": 4.5, "elevation": 50},
+      {"distance": 5, "elevation": 28}, {"distance": 5.5, "elevation": 10}
+    ],
+    "permit_required": true,
+    "permit_info": "Conservation fee required at entrance gate.",
+    "tags": ["seals", "coastal", "dolphins", "whales", "boardwalk"]
+  },
+  {
+    "id": 32,
+    "slug": "point-circuit",
+    "name": "Point Circuit",
+    "reserve": "Robberg Nature Reserve",
+    "source": "CapeNature",
+    "difficulty": "Hard",
+    "distance_km": 9.2,
+    "elevation_gain_m": 152,
+    "estimated_time": "4 hours",
+    "type": "Loop",
+    "description": "The full circuit of Robberg Peninsula to its southernmost Point — home to hundreds of Cape gannets, Cape cormorants, and Arctic terns. A fairly strenuous walk over rocky terrain. Not recommended for young children. Check tides before setting out.",
+    "coordinates": { "lat": -34.1222, "lng": 23.4215 },
+    "polyline": [
+      [-34.1043, 23.3921], [-34.1075, 23.3965], [-34.1105, 23.4008],
+      [-34.1135, 23.4052], [-34.1162, 23.4095], [-34.1188, 23.4138],
+      [-34.1208, 23.4178], [-34.1222, 23.4215], [-34.1205, 23.4175],
+      [-34.1182, 23.4132], [-34.1158, 23.4090], [-34.1132, 23.4048],
+      [-34.1105, 23.4008], [-34.1078, 23.3968], [-34.1055, 23.3938],
+      [-34.1043, 23.3921]
+    ],
+    "elevation_profile": [
+      {"distance": 0, "elevation": 10}, {"distance": 0.5, "elevation": 32},
+      {"distance": 1, "elevation": 62}, {"distance": 1.5, "elevation": 90},
+      {"distance": 2, "elevation": 118}, {"distance": 2.5, "elevation": 142},
+      {"distance": 3, "elevation": 158}, {"distance": 3.5, "elevation": 162},
+      {"distance": 4, "elevation": 155}, {"distance": 4.5, "elevation": 145},
+      {"distance": 5, "elevation": 132}, {"distance": 5.5, "elevation": 115},
+      {"distance": 6, "elevation": 95}, {"distance": 6.5, "elevation": 75},
+      {"distance": 7, "elevation": 55}, {"distance": 7.5, "elevation": 38},
+      {"distance": 8, "elevation": 24}, {"distance": 8.5, "elevation": 15},
+      {"distance": 9, "elevation": 10}, {"distance": 9.2, "elevation": 10}
+    ],
+    "permit_required": true,
+    "permit_info": "Conservation fee required at entrance gate. Check tides.",
+    "tags": ["seabirds", "gannets", "coastal", "rocky", "full-circuit"]
+  }
+]
