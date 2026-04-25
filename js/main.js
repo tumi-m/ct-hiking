@@ -21,6 +21,12 @@ function difficultyClass(d) {
   return d === 'Easy' ? 'badge-easy' : d === 'Moderate' ? 'badge-moderate' : 'badge-hard';
 }
 
+function pricingLabel(pricing) {
+  if (!pricing || pricing.adult === 0) return '<span class="price-free">Free</span>';
+  if (pricing.child === null) return `<span class="price-paid">R${pricing.adult} p.p.</span>`;
+  return `<span class="price-paid">Adult R${pricing.adult} · Child R${pricing.child}</span>`;
+}
+
 function sourceClass(s) {
   return s === 'SANParks' ? 'badge-sanparks' : 'badge-capenature';
 }
@@ -50,6 +56,7 @@ function trailCard(trail) {
           <div class="stat-label">Time</div>
         </div>
       </div>
+      <div class="card-price">${pricingLabel(trail.pricing)}</div>
       <p class="card-description">${trail.description}</p>
       <div class="card-footer">
         <a class="card-link" href="trail.html?slug=${trail.slug}">View trail →</a>

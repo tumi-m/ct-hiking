@@ -62,6 +62,7 @@
           <div class="box-title">Trail info</div>
           <ul id="trail-info-list"></ul>
           <div id="permit-notice" class="permit-notice hidden"></div>
+          <div id="pricing-note" class="pricing-note hidden"></div>
         </div>
         <div class="trail-gmaps-box">
           <div class="box-title">Location &amp; reviews</div>
@@ -124,6 +125,13 @@
     document.getElementById('trail-desc').textContent = trail.description;
 
     // Info list
+    const p = trail.pricing;
+    const priceStr = !p || p.adult === 0
+      ? 'Free'
+      : p.child === null
+        ? `R${p.adult} p.p.`
+        : `Adult R${p.adult} · Child R${p.child}`;
+
     const infoItems = [
       ['Reserve',    trail.reserve],
       ['Source',     trail.source],
@@ -132,6 +140,7 @@
       ['Distance',   `${trail.distance_km} km`],
       ['Elevation gain', `${trail.elevation_gain_m} m`],
       ['Estimated time', trail.estimated_time],
+      ['Entry fee',  priceStr],
       ['Permit',     trail.permit_required ? 'Required' : 'Not required'],
     ];
     document.getElementById('trail-info-list').innerHTML =
@@ -140,6 +149,12 @@
     if (trail.permit_required && trail.permit_info) {
       const el = document.getElementById('permit-notice');
       el.textContent = '⚠ ' + trail.permit_info;
+      el.classList.remove('hidden');
+    }
+
+    if (trail.pricing && trail.pricing.note) {
+      const el = document.getElementById('pricing-note');
+      el.textContent = 'ℹ ' + trail.pricing.note;
       el.classList.remove('hidden');
     }
 

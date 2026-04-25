@@ -26,6 +26,7 @@
     ],
     "permit_required": false,
     "permit_info": null,
+    "pricing": { "adult": 0, "child": 0, "note": "Free day hiking" },
     "tags": ["iconic", "chains", "chains-and-ladders", "summit", "views"]
   },
   {
@@ -56,6 +57,7 @@
     ],
     "permit_required": false,
     "permit_info": null,
+    "pricing": { "adult": 0, "child": 0, "note": "Free day hiking" },
     "tags": ["popular", "family-friendly", "steps", "summit", "cable-car"]
   },
   {
@@ -87,6 +89,7 @@
     ],
     "permit_required": false,
     "permit_info": "Entry through Kirstenbosch Botanical Garden (fee applies).",
+    "pricing": { "adult": 240, "child": 30, "note": "Kirstenbosch entry fee. Children under 6 free." },
     "tags": ["forest", "ladders", "kirstenbosch", "strenuous", "botanical-garden"]
   },
   {
@@ -117,6 +120,7 @@
     ],
     "permit_required": false,
     "permit_info": null,
+    "pricing": { "adult": 0, "child": 0, "note": "Free day hiking" },
     "tags": ["technical", "scrambling", "chains", "quiet", "exposed"]
   },
   {
@@ -147,6 +151,7 @@
     ],
     "permit_required": false,
     "permit_info": null,
+    "pricing": { "adult": 0, "child": 0, "note": "Free day hiking" },
     "tags": ["camps-bay", "fynbos", "gradual", "atlantic-views"]
   },
   {
@@ -177,6 +182,7 @@
     ],
     "permit_required": false,
     "permit_info": null,
+    "pricing": { "adult": 0, "child": 0, "note": "Free day hiking" },
     "tags": ["easy", "family", "twelve-apostles", "coastal-views", "no-summit"]
   },
   {
@@ -206,6 +212,7 @@
     ],
     "permit_required": false,
     "permit_info": null,
+    "pricing": { "adult": 0, "child": 0, "note": "Free day hiking" },
     "tags": ["coastal", "hout-bay", "noordhoek", "views", "sunrise"]
   },
   {
@@ -237,6 +244,7 @@
     ],
     "permit_required": true,
     "permit_info": "Overnight permit required. Book through SANParks reservations. Huts provided at each stage.",
+    "pricing": { "adult": 3500, "child": null, "note": "Per person for full 5-day trail incl. hut accommodation. Book via SANParks." },
     "tags": ["multi-day", "cape-point", "peninsula", "epic", "huts"]
   },
   {
@@ -266,6 +274,7 @@
     ],
     "permit_required": true,
     "permit_info": "Day permit required from CapeNature. Exit by 18:00.",
+    "pricing": { "adult": 220, "child": 55, "note": "CapeNature day permit. Children under 2 free." },
     "tags": ["forest", "indigenous", "easy", "jonkershoek", "family"]
   },
   {
@@ -296,6 +305,7 @@
     ],
     "permit_required": true,
     "permit_info": "Day permit required from CapeNature. Exit by 18:00.",
+    "pricing": { "adult": 220, "child": 55, "note": "CapeNature day permit. Children under 2 free." },
     "tags": ["strenuous", "waterfall", "views", "swimming", "jonkershoek"]
   },
   {
@@ -327,6 +337,7 @@
     ],
     "permit_required": true,
     "permit_info": "Day permit required from CapeNature. Exit by 18:00.",
+    "pricing": { "adult": 220, "child": 55, "note": "CapeNature day permit. Children under 2 free." },
     "tags": ["loop", "disas", "guardian-peak", "views", "plateau"]
   },
   {
@@ -358,6 +369,7 @@
     ],
     "permit_required": true,
     "permit_info": "Day permit required from CapeNature. Exit by 18:00.",
+    "pricing": { "adult": 220, "child": 55, "note": "CapeNature day permit. Children under 2 free." },
     "tags": ["waterfall", "river", "swimming", "easy", "family"]
   },
   {
@@ -387,6 +399,7 @@
     ],
     "permit_required": true,
     "permit_info": "Day permit required from CapeNature.",
+    "pricing": { "adult": 220, "child": 55, "note": "CapeNature day permit. Children under 2 free." },
     "tags": ["waterfall", "river", "wildflowers", "swimming", "bainskloof"]
   },
   {
@@ -416,6 +429,7 @@
     ],
     "permit_required": true,
     "permit_info": "Day permit required from CapeNature.",
+    "pricing": { "adult": 220, "child": 55, "note": "CapeNature day permit. Children under 2 free." },
     "tags": ["history", "swimming", "family", "easy", "bainskloof"]
   },
   {
@@ -444,6 +458,7 @@
     ],
     "permit_required": true,
     "permit_info": "Day permit required from CapeNature.",
+    "pricing": { "adult": 220, "child": 55, "note": "CapeNature day permit. Children under 2 free." },
     "tags": ["waterfall", "forest", "river", "du-toitskloof", "easy"]
   },
   {
@@ -472,6 +487,7 @@
     ],
     "permit_required": true,
     "permit_info": "Day permit required from CapeNature.",
+    "pricing": { "adult": 220, "child": 55, "note": "CapeNature day permit. Children under 2 free." },
     "tags": ["valley-views", "cave", "moderate", "du-toitskloof", "winter-hike"]
   },
   {
@@ -501,6 +517,7 @@
     ],
     "permit_required": true,
     "permit_info": "Day permit required from CapeNature.",
+    "pricing": { "adult": 220, "child": 55, "note": "CapeNature day permit. Children under 2 free." },
     "tags": ["scrambling", "river", "navigation", "adventure", "gorge"]
   },
   {
@@ -530,6 +547,7 @@
     ],
     "permit_required": true,
     "permit_info": "Permit required from Algeria Camp office. Minimum 3 adult hikers.",
+    "pricing": { "adult": 220, "child": 55, "note": "CapeNature day permit from Algeria office. Min. 3 adults." },
     "tags": ["views", "algeria", "cederberg", "short", "lookout"]
   },
   {
@@ -562,6 +580,7 @@
     ],
     "permit_required": true,
     "permit_info": "Permit required from Algeria Camp office. Minimum 3 adult hikers.",
+    "pricing": { "adult": 220, "child": 55, "note": "CapeNature day permit from Algeria office. Min. 3 adults." },
     "tags": ["waterfall", "river", "sandstone", "cederberg", "proteas"]
   },
   {
@@ -592,6 +611,7 @@
     ],
     "permit_required": true,
     "permit_info": "Permit required from Sanddrif Private Nature Reserve.",
+    "pricing": { "adult": 220, "child": 55, "note": "Permit from Sanddrif Private Nature Reserve." },
     "tags": ["rock-formation", "sandstone", "landmark", "cederberg", "scenic"]
   },
   {
@@ -624,6 +644,7 @@
     ],
     "permit_required": true,
     "permit_info": "Permit required from Sanddrif Private Nature Reserve.",
+    "pricing": { "adult": 220, "child": 55, "note": "Permit from Sanddrif Private Nature Reserve." },
     "tags": ["arch", "cracks", "strenuous", "cederberg", "rock-formation"]
   },
   {
@@ -655,6 +676,7 @@
     ],
     "permit_required": true,
     "permit_info": "Permit required from CapeNature. Start by 14:00.",
+    "pricing": { "adult": 220, "child": 55, "note": "CapeNature day permit. Children under 2 free." },
     "tags": ["river", "swimming", "fynbos", "world-heritage", "easy"]
   },
   {
@@ -684,6 +706,7 @@
     ],
     "permit_required": false,
     "permit_info": "No permit required. Start by 13:00.",
+    "pricing": { "adult": 0, "child": 0, "note": "No entry fee required." },
     "tags": ["kleinmond", "fynbos", "walker-bay", "accessible", "moderate"]
   },
   {
@@ -715,6 +738,7 @@
     ],
     "permit_required": true,
     "permit_info": "Day permit required from CapeNature. Begin by 10:00 in summer.",
+    "pricing": { "adult": 220, "child": 55, "note": "CapeNature day permit. Children under 2 free." },
     "tags": ["gorge", "forest", "long", "biosphere", "world-heritage"]
   },
   {
@@ -745,6 +769,7 @@
     ],
     "permit_required": true,
     "permit_info": "Day permit required from CapeNature. Begin by 10:00 in summer.",
+    "pricing": { "adult": 220, "child": 55, "note": "CapeNature day permit. Children under 2 free." },
     "tags": ["peak", "views", "fynbos", "wine-estate", "long-day"]
   },
   {
@@ -774,6 +799,7 @@
     ],
     "permit_required": true,
     "permit_info": "Day permit required from CapeNature. Start by 14:00.",
+    "pricing": { "adult": 220, "child": 55, "note": "CapeNature day permit. Children under 2 free." },
     "tags": ["inn", "fynbos", "overberg", "half-day", "views"]
   },
   {
@@ -807,6 +833,7 @@
     ],
     "permit_required": true,
     "permit_info": "Day permit required from CapeNature / Marloth reserve office.",
+    "pricing": { "adult": 220, "child": 55, "note": "CapeNature day permit from Marloth office. Children under 2 free." },
     "tags": ["summit", "views", "langeberg", "strenuous", "swellendam"]
   },
   {
@@ -835,6 +862,7 @@
     ],
     "permit_required": true,
     "permit_info": "Day permit required from CapeNature / Marloth reserve office.",
+    "pricing": { "adult": 220, "child": 55, "note": "CapeNature day permit from Marloth office. Children under 2 free." },
     "tags": ["waterfall", "forest", "easy", "family", "swellendam"]
   },
   {
@@ -867,6 +895,7 @@
     ],
     "permit_required": true,
     "permit_info": "Day permit required from CapeNature / Marloth reserve office.",
+    "pricing": { "adult": 220, "child": 55, "note": "CapeNature day permit from Marloth office. Children under 2 free." },
     "tags": ["loop", "swimming", "views", "langeberg", "streams"]
   },
   {
@@ -897,6 +926,7 @@
     ],
     "permit_required": true,
     "permit_info": "Conservation fee required at entrance gate.",
+    "pricing": { "adult": 220, "child": 55, "note": "Conservation fee at Robberg entrance gate." },
     "tags": ["quick", "coastal", "geology", "seals", "plett"]
   },
   {
@@ -928,6 +958,7 @@
     ],
     "permit_required": true,
     "permit_info": "Conservation fee required at entrance gate.",
+    "pricing": { "adult": 220, "child": 55, "note": "Conservation fee at Robberg entrance gate." },
     "tags": ["seals", "coastal", "dolphins", "whales", "boardwalk"]
   },
   {
@@ -965,6 +996,7 @@
     ],
     "permit_required": true,
     "permit_info": "Conservation fee required at entrance gate. Check tides.",
+    "pricing": { "adult": 220, "child": 55, "note": "Conservation fee at Robberg entrance gate." },
     "tags": ["seabirds", "gannets", "coastal", "rocky", "full-circuit"]
   }
 ]

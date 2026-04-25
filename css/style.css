@@ -206,6 +206,14 @@ h3 { font-size: 1.2rem; }
 .stat { text-align: center; }
 .stat-value { font-weight: 700; font-size: 1rem; color: var(--green-dark); }
 .stat-label { font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+.card-price {
+  padding: 0 1.25rem 0.5rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+.price-free  { color: var(--green-dark); }
+.price-paid  { color: var(--brown); }
+
 .card-description {
   padding: 0.5rem 1.25rem 1rem;
   font-size: 0.88rem;
@@ -428,6 +436,16 @@ h3 { font-size: 1.2rem; }
 .gmaps-footer {
   padding: 0.75rem 1.25rem;
   border-top: 1px solid #f0ece5;
+}
+
+.pricing-note {
+  margin: 0 1.25rem 1.25rem;
+  padding: 0.75rem 1rem;
+  background: #e8f4fd;
+  border-radius: var(--radius);
+  font-size: 0.88rem;
+  color: #0c5460;
+  border-left: 3px solid #17a2b8;
 }
 
 .permit-notice {
