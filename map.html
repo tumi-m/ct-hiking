@@ -47,6 +47,7 @@
   <aside class="map-sidebar">
     <div class="map-sidebar-header">
       <h3>All Trails</h3>
+      <input type="search" id="map-search" placeholder="Search trails…" autocomplete="off">
     </div>
     <div class="sidebar-filters">
       <button class="filter-btn active" data-value="all">All</button>
@@ -79,6 +80,7 @@
   let layers = [];
   let allTrails = [];
   let activeFilter = 'all';
+  let searchQuery = '';
 
   function renderSidebar(trails) {
     document.getElementById('sidebar-list').innerHTML = trails.map(t => `
@@ -111,9 +113,12 @@
   }
 
   function applyFilter() {
-    const filtered = activeFilter === 'all'
-      ? allTrails
-      : allTrails.filter(t => t.difficulty === activeFilter);
+    const q = searchQuery.toLowerCase();
+    const filtered = allTrails.filter(t => {
+      const diffOk   = activeFilter === 'all' || t.difficulty === activeFilter;
+      const searchOk = !q || t.name.toLowerCase().includes(q) || t.reserve.toLowerCase().includes(q);
+      return diffOk && searchOk;
+    });
     renderMap(filtered);
     renderSidebar(filtered);
   }
@@ -125,6 +130,11 @@
       activeFilter = btn.dataset.value;
       applyFilter();
     });
+  });
+
+  document.getElementById('map-search').addEventListener('input', e => {
+    searchQuery = e.target.value.trim();
+    applyFilter();
   });
 
   loadTrails().then(trails => {

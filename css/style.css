@@ -382,8 +382,26 @@ h3 { font-size: 1.2rem; }
   padding: 1rem 1.25rem;
   border-bottom: 1px solid #f0ece5;
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
 }
 .map-sidebar-header h3 { font-family: Georgia, serif; color: var(--brown-dark); }
+.map-sidebar-header input[type="search"] {
+  width: 100%;
+  padding: 0.45rem 0.75rem;
+  border: 1.5px solid #ddd;
+  border-radius: var(--radius);
+  font: inherit;
+  font-size: 0.85rem;
+  background: var(--sand);
+  transition: border-color 0.15s;
+}
+.map-sidebar-header input[type="search"]:focus {
+  outline: none;
+  border-color: var(--green);
+  background: #fff;
+}
 .map-sidebar-list { flex: 1; overflow-y: auto; }
 .map-trail-item {
   padding: 0.75rem 1.25rem;
