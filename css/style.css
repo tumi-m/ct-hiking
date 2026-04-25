@@ -211,8 +211,9 @@ h3 { font-size: 1.2rem; }
   font-size: 0.82rem;
   font-weight: 700;
 }
-.price-free  { color: var(--green-dark); }
-.price-paid  { color: var(--brown); }
+.price-free   { color: var(--green-dark); }
+.price-paid   { color: var(--brown); }
+.price-closed { color: #721c24; }
 
 .card-description {
   padding: 0.5rem 1.25rem 1rem;
