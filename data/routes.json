@@ -8,9 +8,9 @@
     "difficulty": "Moderate",
     "distance_km": 5,
     "elevation_gain_m": 319,
-    "estimated_time": "2\u20133 hours",
+    "estimated_time": "2–3 hours",
     "type": "Loop",
-    "description": "One of Cape Town's most iconic hikes, Lion's Head offers a circular route to the 669m summit with breathtaking 360\u00b0 views of the City Bowl, Table Mountain, and the Atlantic Seaboard. The trail involves chain and ladder sections near the summit.",
+    "description": "One of Cape Town's most iconic hikes, Lion's Head offers a circular route to the 669m summit with breathtaking 360° views of the City Bowl, Table Mountain, and the Atlantic Seaboard. The trail involves chain and ladder sections near the summit.",
     "coordinates": {
       "lat": -33.9374,
       "lng": 18.3924
@@ -96,7 +96,7 @@
     "pricing": {
       "adult": 0,
       "child": 0,
-      "note": "Free day hiking \u2014 no permit or entry fee required."
+      "note": "Free day hiking — no permit or entry fee required."
     },
     "tags": [
       "iconic",
@@ -104,7 +104,8 @@
       "chains-and-ladders",
       "summit",
       "views"
-    ]
+    ],
+    "pdf_url": "https://www.sanparks.org/wp-content/uploads/2024/02/tmnp-visitors-map.pdf"
   },
   {
     "id": 2,
@@ -115,7 +116,7 @@
     "difficulty": "Moderate",
     "distance_km": 6,
     "elevation_gain_m": 700,
-    "estimated_time": "2\u20133 hours",
+    "estimated_time": "2–3 hours",
     "type": "Out & Back",
     "description": "The most direct and popular route to the summit of Table Mountain. Well-constructed stone steps guide you up through the gorge on the mountain's north face. Steep but manageable, with no technical scrambling required. Take the cable car down if your legs give out.",
     "coordinates": {
@@ -207,7 +208,7 @@
     "pricing": {
       "adult": 0,
       "child": 0,
-      "note": "Free day hiking \u2014 no permit or entry fee required."
+      "note": "Free day hiking — no permit or entry fee required."
     },
     "tags": [
       "popular",
@@ -215,7 +216,8 @@
       "steps",
       "summit",
       "cable-car"
-    ]
+    ],
+    "pdf_url": "https://www.sanparks.org/wp-content/uploads/2024/02/tmnp-visitors-map.pdf"
   },
   {
     "id": 3,
@@ -226,7 +228,7 @@
     "difficulty": "Hard",
     "distance_km": 6,
     "elevation_gain_m": 900,
-    "estimated_time": "4\u20135 hours",
+    "estimated_time": "4–5 hours",
     "type": "One Way",
     "description": "Starting inside the Kirstenbosch National Botanical Garden, Skeleton Gorge (Smuts Track) ascends through lush Afromontane forest with wooden ladders and rocky scrambles. The hardest section of a rewarding route to the Table Mountain plateau.",
     "coordinates": {
@@ -334,7 +336,8 @@
       "kirstenbosch",
       "strenuous",
       "botanical-garden"
-    ]
+    ],
+    "pdf_url": "https://www.sanparks.org/wp-content/uploads/2024/02/tmnp-visitors-map.pdf"
   },
   {
     "id": 4,
@@ -345,7 +348,7 @@
     "difficulty": "Hard",
     "distance_km": 6,
     "elevation_gain_m": 700,
-    "estimated_time": "3\u20134 hours",
+    "estimated_time": "3–4 hours",
     "type": "Out & Back",
     "description": "A technical and less-crowded alternative to Platteklip Gorge on Table Mountain's front face. Expect rock scrambling and exposed sections with chains. Rewarding for those who prefer solitude and a more adventurous climb.",
     "coordinates": {
@@ -437,7 +440,7 @@
     "pricing": {
       "adult": 0,
       "child": 0,
-      "note": "Free day hiking \u2014 no permit or entry fee required."
+      "note": "Free day hiking — no permit or entry fee required."
     },
     "tags": [
       "technical",
@@ -445,7 +448,8 @@
       "chains",
       "quiet",
       "exposed"
-    ]
+    ],
+    "pdf_url": "https://www.sanparks.org/wp-content/uploads/2024/02/tmnp-visitors-map.pdf"
   },
   {
     "id": 5,
@@ -456,7 +460,7 @@
     "difficulty": "Moderate",
     "distance_km": 12,
     "elevation_gain_m": 700,
-    "estimated_time": "3\u20134 hours",
+    "estimated_time": "3–4 hours",
     "type": "Out & Back",
     "description": "A longer but more gradual ascent of Table Mountain from the Camps Bay side. The trail winds through fynbos terrain with stunning views over the Atlantic Seaboard. Less steep than Platteklip, making it a good choice for those wanting a sustained hike.",
     "coordinates": {
@@ -548,14 +552,15 @@
     "pricing": {
       "adult": 0,
       "child": 0,
-      "note": "Free day hiking \u2014 no permit or entry fee required."
+      "note": "Free day hiking — no permit or entry fee required."
     },
     "tags": [
       "camps-bay",
       "fynbos",
       "gradual",
       "atlantic-views"
-    ]
+    ],
+    "pdf_url": "https://www.sanparks.org/wp-content/uploads/2024/02/tmnp-visitors-map.pdf"
   },
   {
     "id": 6,
@@ -566,9 +571,9 @@
     "difficulty": "Easy",
     "distance_km": 6,
     "elevation_gain_m": 200,
-    "estimated_time": "2\u20133 hours",
+    "estimated_time": "2–3 hours",
     "type": "Out & Back",
-    "description": "A relatively easy contour path following an old water pipeline along the lower slopes of Table Mountain. No summit \u2014 just spectacular views of the Twelve Apostles and Atlantic Ocean. Perfect for families and first-time hikers.",
+    "description": "A relatively easy contour path following an old water pipeline along the lower slopes of Table Mountain. No summit — just spectacular views of the Twelve Apostles and Atlantic Ocean. Perfect for families and first-time hikers.",
     "coordinates": {
       "lat": -33.9558,
       "lng": 18.38
@@ -658,7 +663,7 @@
     "pricing": {
       "adult": 0,
       "child": 0,
-      "note": "Free day hiking \u2014 no permit or entry fee required."
+      "note": "Free day hiking — no permit or entry fee required."
     },
     "tags": [
       "easy",
@@ -666,7 +671,8 @@
       "twelve-apostles",
       "coastal-views",
       "no-summit"
-    ]
+    ],
+    "pdf_url": "https://www.sanparks.org/wp-content/uploads/2024/02/tmnp-visitors-map.pdf"
   },
   {
     "id": 7,
@@ -761,7 +767,7 @@
     "pricing": {
       "adult": 0,
       "child": 0,
-      "note": "Free day hiking \u2014 no permit or entry fee required."
+      "note": "Free day hiking — no permit or entry fee required."
     },
     "tags": [
       "coastal",
@@ -769,7 +775,8 @@
       "noordhoek",
       "views",
       "sunrise"
-    ]
+    ],
+    "pdf_url": "https://www.sanparks.org/wp-content/uploads/2024/02/tmnp-visitors-map.pdf"
   },
   {
     "id": 8,
@@ -782,7 +789,7 @@
     "elevation_gain_m": 2800,
     "estimated_time": "5 days / 4 nights",
     "type": "Multi-day",
-    "description": "An epic 5-day traverse of the entire Cape Peninsula from Cape Point to the Western Table of Table Mountain. The trail passes through fynbos, coastal dunes, mountain ridges, and indigenous forest \u2014 offering both Atlantic and False Bay views. One of South Africa's greatest wilderness walks.",
+    "description": "An epic 5-day traverse of the entire Cape Peninsula from Cape Point to the Western Table of Table Mountain. The trail passes through fynbos, coastal dunes, mountain ridges, and indigenous forest — offering both Atlantic and False Bay views. One of South Africa's greatest wilderness walks.",
     "coordinates": {
       "lat": -34.18,
       "lng": 18.42
@@ -892,7 +899,8 @@
       "peninsula",
       "epic",
       "huts"
-    ]
+    ],
+    "pdf_url": "https://www.sanparks.org/wp-content/uploads/2024/02/tmnp-visitors-map.pdf"
   },
   {
     "id": 9,
@@ -903,7 +911,7 @@
     "difficulty": "Easy",
     "distance_km": 5.3,
     "elevation_gain_m": 200,
-    "estimated_time": "2\u20132.5 hours",
+    "estimated_time": "2–2.5 hours",
     "type": "Out & Back",
     "description": "An easy, scenic trail that ascends the western slopes of Swartboskloof through a patch of beautiful indigenous forest before following a contour path to Sosyskloof. Watch out for slippery sections after rain.",
     "coordinates": {
@@ -987,7 +995,7 @@
     "pricing": {
       "adult": 70,
       "child": 50,
-      "note": "CapeNature day permit. Ages 4\u201317 child rate. Under 4 free."
+      "note": "CapeNature day permit. Ages 4–17 child rate. Under 4 free."
     },
     "tags": [
       "forest",
@@ -995,7 +1003,8 @@
       "easy",
       "jonkershoek",
       "family"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/Reserves/Maps/Jonkershoek-Map-Brochure1.pdf"
   },
   {
     "id": 10,
@@ -1098,7 +1107,7 @@
     "pricing": {
       "adult": 70,
       "child": 50,
-      "note": "CapeNature day permit. Ages 4\u201317 child rate. Under 4 free."
+      "note": "CapeNature day permit. Ages 4–17 child rate. Under 4 free."
     },
     "tags": [
       "strenuous",
@@ -1106,7 +1115,8 @@
       "views",
       "swimming",
       "jonkershoek"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/Reserves/Maps/Jonkershoek-Map-Brochure1.pdf"
   },
   {
     "id": 11,
@@ -1217,7 +1227,7 @@
     "pricing": {
       "adult": 70,
       "child": 50,
-      "note": "CapeNature day permit. Ages 4\u201317 child rate. Under 4 free."
+      "note": "CapeNature day permit. Ages 4–17 child rate. Under 4 free."
     },
     "tags": [
       "loop",
@@ -1225,7 +1235,8 @@
       "guardian-peak",
       "views",
       "plateau"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/Reserves/Maps/Jonkershoek-Map-Brochure1.pdf"
   },
   {
     "id": 12,
@@ -1332,7 +1343,7 @@
     "pricing": {
       "adult": 70,
       "child": 50,
-      "note": "CapeNature day permit. Ages 4\u201317 child rate. Under 4 free."
+      "note": "CapeNature day permit. Ages 4–17 child rate. Under 4 free."
     },
     "tags": [
       "waterfall",
@@ -1340,7 +1351,8 @@
       "swimming",
       "easy",
       "family"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/Reserves/Maps/Jonkershoek-Map-Brochure1.pdf"
   },
   {
     "id": 13,
@@ -1439,7 +1451,7 @@
     "pricing": {
       "adult": 55,
       "child": 35,
-      "note": "CapeNature day permit. Ages 4\u201317 child rate. Under 4 free."
+      "note": "CapeNature day permit. Ages 4–17 child rate. Under 4 free."
     },
     "tags": [
       "waterfall",
@@ -1447,7 +1459,8 @@
       "wildflowers",
       "swimming",
       "bainskloof"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/new-Limietberg-Hiking-Trails-Map-10-08-2022.pdf"
   },
   {
     "id": 14,
@@ -1460,7 +1473,7 @@
     "elevation_gain_m": 195,
     "estimated_time": "6 hours",
     "type": "One Way",
-    "description": "A family-friendly route beginning at Eerste Tol in Bainskloof. The trail passes historic ruins and a monument commemorating the 1895 Witte River disaster, ending at Junction Pools \u2014 a beautiful swimming spot.",
+    "description": "A family-friendly route beginning at Eerste Tol in Bainskloof. The trail passes historic ruins and a monument commemorating the 1895 Witte River disaster, ending at Junction Pools — a beautiful swimming spot.",
     "coordinates": {
       "lat": -33.665,
       "lng": 19.105
@@ -1546,7 +1559,7 @@
     "pricing": {
       "adult": 55,
       "child": 35,
-      "note": "CapeNature day permit. Ages 4\u201317 child rate. Under 4 free."
+      "note": "CapeNature day permit. Ages 4–17 child rate. Under 4 free."
     },
     "tags": [
       "history",
@@ -1554,7 +1567,8 @@
       "family",
       "easy",
       "bainskloof"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/new-Limietberg-Hiking-Trails-Map-10-08-2022.pdf"
   },
   {
     "id": 15,
@@ -1641,7 +1655,7 @@
     "pricing": {
       "adult": 55,
       "child": 35,
-      "note": "CapeNature day permit. Ages 4\u201317 child rate. Under 4 free."
+      "note": "CapeNature day permit. Ages 4–17 child rate. Under 4 free."
     },
     "tags": [
       "waterfall",
@@ -1649,7 +1663,8 @@
       "river",
       "du-toitskloof",
       "easy"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/new-Limietberg-Hiking-Trails-Map-10-08-2022.pdf"
   },
   {
     "id": 16,
@@ -1736,7 +1751,7 @@
     "pricing": {
       "adult": 55,
       "child": 35,
-      "note": "CapeNature day permit. Ages 4\u201317 child rate. Under 4 free."
+      "note": "CapeNature day permit. Ages 4–17 child rate. Under 4 free."
     },
     "tags": [
       "valley-views",
@@ -1744,7 +1759,8 @@
       "moderate",
       "du-toitskloof",
       "winter-hike"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/new-Limietberg-Hiking-Trails-Map-10-08-2022.pdf"
   },
   {
     "id": 17,
@@ -1757,7 +1773,7 @@
     "elevation_gain_m": 450,
     "estimated_time": "6 hours",
     "type": "One Way",
-    "description": "For the adventurous hiker. This trail involves rock hopping, swimming, and finding your own way down the boulder-strewn Witte River bed. No marked route \u2014 this is navigation by instinct through one of the most dramatic gorges in the Boland.",
+    "description": "For the adventurous hiker. This trail involves rock hopping, swimming, and finding your own way down the boulder-strewn Witte River bed. No marked route — this is navigation by instinct through one of the most dramatic gorges in the Boland.",
     "coordinates": {
       "lat": -33.635,
       "lng": 19.0605
@@ -1839,7 +1855,7 @@
     "pricing": {
       "adult": 55,
       "child": 35,
-      "note": "CapeNature day permit. Ages 4\u201317 child rate. Under 4 free."
+      "note": "CapeNature day permit. Ages 4–17 child rate. Under 4 free."
     },
     "tags": [
       "scrambling",
@@ -1847,7 +1863,8 @@
       "navigation",
       "adventure",
       "gorge"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/new-Limietberg-Hiking-Trails-Map-10-08-2022.pdf"
   },
   {
     "id": 18,
@@ -1950,7 +1967,8 @@
       "cederberg",
       "short",
       "lookout"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/Cederberg-map-and-brochure.pdf"
   },
   {
     "id": 19,
@@ -1963,7 +1981,7 @@
     "elevation_gain_m": 350,
     "estimated_time": "3 hours",
     "type": "Out & Back",
-    "description": "A moderately steep, well-marked trail from Algeria to the Middelberg Waterfall. The route follows the river through dramatic Cederberg scenery \u2014 ochre sandstone cliffs, fynbos, and proteas.",
+    "description": "A moderately steep, well-marked trail from Algeria to the Middelberg Waterfall. The route follows the river through dramatic Cederberg scenery — ochre sandstone cliffs, fynbos, and proteas.",
     "coordinates": {
       "lat": -32.3905,
       "lng": 19.0335
@@ -2073,7 +2091,8 @@
       "sandstone",
       "cederberg",
       "proteas"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/Cederberg-map-and-brochure.pdf"
   },
   {
     "id": 20,
@@ -2086,7 +2105,7 @@
     "elevation_gain_m": 600,
     "estimated_time": "5 hours",
     "type": "Out & Back",
-    "description": "A well-marked trail from Sanddrif farm to one of the Cederberg's most famous landmarks \u2014 a 20m tall Maltese Cross-shaped sandstone formation. The walk begins gently before climbing through dramatic red rock scenery.",
+    "description": "A well-marked trail from Sanddrif farm to one of the Cederberg's most famous landmarks — a 20m tall Maltese Cross-shaped sandstone formation. The walk begins gently before climbing through dramatic red rock scenery.",
     "coordinates": {
       "lat": -32.4248,
       "lng": 19.1368
@@ -2184,7 +2203,8 @@
       "landmark",
       "cederberg",
       "scenic"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/Cederberg-map-and-brochure.pdf"
   },
   {
     "id": 21,
@@ -2197,7 +2217,7 @@
     "elevation_gain_m": 820,
     "estimated_time": "8 hours",
     "type": "Out & Back",
-    "description": "Strenuous but spectacular, this trail climbs through the Wolfberg Cracks \u2014 a series of narrow rock fissures \u2014 before reaching the enormous natural arch formation. Not for beginners. Start early and carry plenty of water.",
+    "description": "Strenuous but spectacular, this trail climbs through the Wolfberg Cracks — a series of narrow rock fissures — before reaching the enormous natural arch formation. Not for beginners. Start early and carry plenty of water.",
     "coordinates": {
       "lat": -32.382,
       "lng": 19.1648
@@ -2311,7 +2331,8 @@
       "strenuous",
       "cederberg",
       "rock-formation"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/Cederberg-map-and-brochure.pdf"
   },
   {
     "id": 22,
@@ -2324,7 +2345,7 @@
     "elevation_gain_m": 105,
     "estimated_time": "3 hours",
     "type": "Out & Back",
-    "description": "An easy venture along the Palmiet River through the Kogelberg Biosphere Reserve \u2014 a World Heritage Site known for extraordinary floral diversity. Designated swimming spots make this ideal for a summer outing. Start by 14:00.",
+    "description": "An easy venture along the Palmiet River through the Kogelberg Biosphere Reserve — a World Heritage Site known for extraordinary floral diversity. Designated swimming spots make this ideal for a summer outing. Start by 14:00.",
     "coordinates": {
       "lat": -34.31,
       "lng": 18.9502
@@ -2422,7 +2443,7 @@
     "pricing": {
       "adult": 65,
       "child": 45,
-      "note": "CapeNature day permit. Ages 4\u201317 child rate. Under 4 free."
+      "note": "CapeNature day permit. Ages 4–17 child rate. Under 4 free."
     },
     "tags": [
       "river",
@@ -2430,7 +2451,8 @@
       "fynbos",
       "world-heritage",
       "easy"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/Reserves/Maps/Kogelberg-map-and-brochure.pdf"
   },
   {
     "id": 23,
@@ -2533,7 +2555,8 @@
       "walker-bay",
       "accessible",
       "moderate"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/Reserves/Maps/Kogelberg-map-and-brochure.pdf"
   },
   {
     "id": 24,
@@ -2546,7 +2569,7 @@
     "elevation_gain_m": 800,
     "estimated_time": "8 hours",
     "type": "Loop",
-    "description": "A long day hike traversing a gorge through montane forest patches in the heart of the Kogelberg Biosphere. The trail covers the full range of the reserve's terrain. Begin by 10:00 in summer. Rough terrain and unpredictable weather \u2014 be prepared.",
+    "description": "A long day hike traversing a gorge through montane forest patches in the heart of the Kogelberg Biosphere. The trail covers the full range of the reserve's terrain. Begin by 10:00 in summer. Rough terrain and unpredictable weather — be prepared.",
     "coordinates": {
       "lat": -34.2872,
       "lng": 18.9175
@@ -2648,7 +2671,7 @@
     "pricing": {
       "adult": 65,
       "child": 45,
-      "note": "CapeNature day permit. Ages 4\u201317 child rate. Under 4 free."
+      "note": "CapeNature day permit. Ages 4–17 child rate. Under 4 free."
     },
     "tags": [
       "gorge",
@@ -2656,7 +2679,8 @@
       "long",
       "biosphere",
       "world-heritage"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/Reserves/Maps/Kogelberg-map-and-brochure.pdf"
   },
   {
     "id": 25,
@@ -2667,7 +2691,7 @@
     "difficulty": "Moderate",
     "distance_km": 22,
     "elevation_gain_m": 748,
-    "estimated_time": "7\u20138 hours",
+    "estimated_time": "7–8 hours",
     "type": "One Way",
     "description": "Starting from Iona Wine Estate, this trail climbs to a peak lookout with sweeping views over the Kogelberg Biosphere. A full day route through pristine fynbos and montane terrain. Begin by 10:00 in summer.",
     "coordinates": {
@@ -2763,7 +2787,7 @@
     "pricing": {
       "adult": 65,
       "child": 45,
-      "note": "CapeNature day permit. Ages 4\u201317 child rate. Under 4 free."
+      "note": "CapeNature day permit. Ages 4–17 child rate. Under 4 free."
     },
     "tags": [
       "peak",
@@ -2771,7 +2795,8 @@
       "fynbos",
       "wine-estate",
       "long-day"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/Reserves/Maps/Kogelberg-map-and-brochure.pdf"
   },
   {
     "id": 26,
@@ -2866,7 +2891,7 @@
     "pricing": {
       "adult": 65,
       "child": 45,
-      "note": "CapeNature day permit. Ages 4\u201317 child rate. Under 4 free."
+      "note": "CapeNature day permit. Ages 4–17 child rate. Under 4 free."
     },
     "tags": [
       "inn",
@@ -2874,7 +2899,8 @@
       "overberg",
       "half-day",
       "views"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/Reserves/Maps/Kogelberg-map-and-brochure.pdf"
   },
   {
     "id": 27,
@@ -2887,7 +2913,7 @@
     "elevation_gain_m": 1150,
     "estimated_time": "6 hours",
     "type": "Out & Back",
-    "description": "Starting from the Marloth reserve office in Swellendam, this challenging hike climbs to the 1,450m Twaalfuurkop summit with breathtaking views of the entire Langeberg Mountains, the R\u00fbensveld, and on a clear day, the Indian Ocean.",
+    "description": "Starting from the Marloth reserve office in Swellendam, this challenging hike climbs to the 1,450m Twaalfuurkop summit with breathtaking views of the entire Langeberg Mountains, the Rûensveld, and on a clear day, the Indian Ocean.",
     "coordinates": {
       "lat": -34.024,
       "lng": 20.419
@@ -3009,7 +3035,7 @@
     "pricing": {
       "adult": 55,
       "child": 35,
-      "note": "CapeNature day permit from Marloth reserve office. Ages 4\u201317 child rate. Under 4 free."
+      "note": "CapeNature day permit from Marloth reserve office. Ages 4–17 child rate. Under 4 free."
     },
     "tags": [
       "summit",
@@ -3017,7 +3043,8 @@
       "langeberg",
       "strenuous",
       "swellendam"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/Reserves/Maps/Marloth-map-and-brochure.pdf"
   },
   {
     "id": 28,
@@ -3096,7 +3123,7 @@
     "pricing": {
       "adult": 55,
       "child": 35,
-      "note": "CapeNature day permit from Marloth reserve office. Ages 4\u201317 child rate. Under 4 free."
+      "note": "CapeNature day permit from Marloth reserve office. Ages 4–17 child rate. Under 4 free."
     },
     "tags": [
       "waterfall",
@@ -3104,7 +3131,8 @@
       "easy",
       "family",
       "swellendam"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/Reserves/Maps/Marloth-map-and-brochure.pdf"
   },
   {
     "id": 29,
@@ -3231,7 +3259,7 @@
     "pricing": {
       "adult": 55,
       "child": 35,
-      "note": "CapeNature day permit from Marloth reserve office. Ages 4\u201317 child rate. Under 4 free."
+      "note": "CapeNature day permit from Marloth reserve office. Ages 4–17 child rate. Under 4 free."
     },
     "tags": [
       "loop",
@@ -3239,7 +3267,8 @@
       "views",
       "langeberg",
       "streams"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/Reserves/Maps/Marloth-map-and-brochure.pdf"
   },
   {
     "id": 30,
@@ -3338,7 +3367,7 @@
     "pricing": {
       "adult": 75,
       "child": 55,
-      "note": "Conservation fee at Robberg entrance gate. Ages 4\u201317 child rate. Under 4 free."
+      "note": "Conservation fee at Robberg entrance gate. Ages 4–17 child rate. Under 4 free."
     },
     "tags": [
       "quick",
@@ -3346,7 +3375,8 @@
       "geology",
       "seals",
       "plett"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/Reserves/Maps/Robberg-Nature-Reserve-Brochure-1.pdf"
   },
   {
     "id": 31,
@@ -3461,7 +3491,7 @@
     "pricing": {
       "adult": 75,
       "child": 55,
-      "note": "Conservation fee at Robberg entrance gate. Ages 4\u201317 child rate. Under 4 free."
+      "note": "Conservation fee at Robberg entrance gate. Ages 4–17 child rate. Under 4 free."
     },
     "tags": [
       "seals",
@@ -3469,7 +3499,8 @@
       "dolphins",
       "whales",
       "boardwalk"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/Reserves/Maps/Robberg-Nature-Reserve-Brochure-1.pdf"
   },
   {
     "id": 32,
@@ -3482,7 +3513,7 @@
     "elevation_gain_m": 152,
     "estimated_time": "4 hours",
     "type": "Loop",
-    "description": "The full circuit of Robberg Peninsula to its southernmost Point \u2014 home to hundreds of Cape gannets, Cape cormorants, and Arctic terns. A fairly strenuous walk over rocky terrain. Not recommended for young children. Check tides before setting out.",
+    "description": "The full circuit of Robberg Peninsula to its southernmost Point — home to hundreds of Cape gannets, Cape cormorants, and Arctic terns. A fairly strenuous walk over rocky terrain. Not recommended for young children. Check tides before setting out.",
     "coordinates": {
       "lat": -34.1222,
       "lng": 23.4215
@@ -3648,6 +3679,7 @@
       "coastal",
       "rocky",
       "full-circuit"
-    ]
+    ],
+    "pdf_url": "https://www.capenature.co.za/uploads/files/Reserves/Maps/Robberg-Nature-Reserve-Brochure-1.pdf"
   }
 ]

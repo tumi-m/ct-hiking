@@ -71,6 +71,9 @@
             <a id="gmaps-link" href="#" target="_blank" rel="noopener" class="btn btn-outline" style="width:100%;justify-content:center;font-size:0.85rem">See reviews on Google Maps →</a>
           </div>
         </div>
+        <div id="pdf-box" style="margin-top:1rem;display:none">
+          <a id="pdf-link" href="#" target="_blank" rel="noopener" class="btn btn-outline" style="width:100%;justify-content:center;border-color:var(--brown);color:var(--brown)">&#128506; Download trail map (PDF)</a>
+        </div>
         <div style="margin-top:1rem">
           <a href="trails.html" class="btn btn-outline" style="width:100%;justify-content:center">← Back to all trails</a>
         </div>
@@ -158,6 +161,11 @@
       const el = document.getElementById('pricing-note');
       el.textContent = 'ℹ ' + trail.pricing.note;
       el.classList.remove('hidden');
+    }
+
+    if (trail.pdf_url) {
+      document.getElementById('pdf-link').href = trail.pdf_url;
+      document.getElementById('pdf-box').style.display = '';
     }
 
     // Google Maps embed
